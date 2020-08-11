@@ -1,0 +1,4483 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://hl7.org/fhir/sid/icd-o-3-topo",
+  "name": "ICD-O-3-TOPO",
+  "title": "International Classification of Diseases for Oncology, Third Edition, Topography Section",
+  "version": "20190819",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "World Health Organization",
+  "valueSet": "http://hl7.org/fhir/sid/icd-o-3-topo",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "C00",
+      "display": "LIP",
+      "concept": [
+        {
+          "code": "C000",
+          "display": "External upper lip",
+          "designation": [
+            {
+              "value": "skin of upper lip"
+            },
+            {
+              "value": "Upper lip, NOS"
+            },
+            {
+              "value": "Vermilion border of upper lip"
+            }
+          ]
+        },
+        {
+          "code": "C001",
+          "display": "External lower lip",
+          "designation": [
+            {
+              "value": "Lower lip, NOS"
+            },
+            {
+              "value": "skin of lower lip"
+            },
+            {
+              "value": "Vermilion border of lower lip"
+            }
+          ]
+        },
+        {
+          "code": "C002",
+          "display": "External lip, NOS"
+        },
+        {
+          "code": "C003",
+          "display": "Mucosa of upper lip",
+          "designation": [
+            {
+              "value": "Frenulum of upper lip"
+            }
+          ]
+        },
+        {
+          "code": "C004",
+          "display": "Mucosa of lower lip",
+          "designation": [
+            {
+              "value": "Frenulum of lower lip"
+            },
+            {
+              "value": "Inner aspect of lower lip"
+            }
+          ]
+        },
+        {
+          "code": "C005",
+          "display": "Mucosa of lip, NOS",
+          "designation": [
+            {
+              "value": "Frenulum labii, NOS"
+            },
+            {
+              "value": "Frenulum of lip, NOS"
+            },
+            {
+              "value": "Inner aspect of lip, NOS"
+            },
+            {
+              "value": "Internal lip, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C006",
+          "display": "Commissure of lip",
+          "designation": [
+            {
+              "value": "Labial commissure"
+            }
+          ]
+        },
+        {
+          "code": "C008",
+          "display": "Overlapping lesion of lip"
+        },
+        {
+          "code": "C009",
+          "display": "Lip, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C01",
+      "display": "BASE OF TONGUE",
+      "concept": [
+        {
+          "code": "C019",
+          "display": "Base of tongue, NOS",
+          "designation": [
+            {
+              "value": "Dorsal surface of base of tongue"
+            },
+            {
+              "value": "Posterior third of tongue"
+            },
+            {
+              "value": "Posterior tongue, NOS"
+            },
+            {
+              "value": "Root of tongue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C02",
+      "display": "OTHER AND UNSPECIFIED PARTS OF TONGUE",
+      "concept": [
+        {
+          "code": "C020",
+          "display": "Dorsal surface of tongue, NOS",
+          "designation": [
+            {
+              "value": "Anterior 2/3 of tongue, dorsal surface"
+            },
+            {
+              "value": "Dorsal surface of anterior tongue"
+            },
+            {
+              "value": "Midline of tongue"
+            }
+          ]
+        },
+        {
+          "code": "C021",
+          "display": "Border of tongue",
+          "designation": [
+            {
+              "value": "Tip of tongue"
+            }
+          ]
+        },
+        {
+          "code": "C022",
+          "display": "Ventral surface of tongue, NOS",
+          "designation": [
+            {
+              "value": "Anterior 2/3 of tongue, ventral surface"
+            },
+            {
+              "value": "Frenulum linguae"
+            },
+            {
+              "value": "Ventral surface of anterior tongue, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C023",
+          "display": "Anterior 2/3 of tongue, NOS",
+          "designation": [
+            {
+              "value": "Anterior tongue, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C024",
+          "display": "Lingual tonsil"
+        },
+        {
+          "code": "C028",
+          "display": "Overlapping lesion of tongue",
+          "designation": [
+            {
+              "value": "Junctional zone of tongue"
+            }
+          ]
+        },
+        {
+          "code": "C029",
+          "display": "Tongue, NOS",
+          "designation": [
+            {
+              "value": "Lingual, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C03",
+      "display": "GUM",
+      "concept": [
+        {
+          "code": "C030",
+          "display": "Upper gum",
+          "designation": [
+            {
+              "value": "Upper alveolar mucosa"
+            },
+            {
+              "value": "Upper alveolar ridge mucosa"
+            },
+            {
+              "value": "Upper alveolus"
+            },
+            {
+              "value": "Upper gingiva"
+            }
+          ]
+        },
+        {
+          "code": "C031",
+          "display": "Lower gum",
+          "designation": [
+            {
+              "value": "Lower alveolar mucosa"
+            },
+            {
+              "value": "Lower alveolar ridge mucosa"
+            },
+            {
+              "value": "Lower alveolus"
+            },
+            {
+              "value": "Lower gingiva"
+            }
+          ]
+        },
+        {
+          "code": "C039",
+          "display": "Gum, NOS",
+          "designation": [
+            {
+              "value": "Alveolar mucosa, NOS"
+            },
+            {
+              "value": "Alveolar ridge mucosa, NOS"
+            },
+            {
+              "value": "Alveolus, NOS"
+            },
+            {
+              "value": "Periodontal tissue"
+            },
+            {
+              "value": "Tooth socket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C04",
+      "display": "FLOOR OF MOUTH",
+      "concept": [
+        {
+          "code": "C040",
+          "display": "Anterior floor of mouth"
+        },
+        {
+          "code": "C041",
+          "display": "Lateral floor of mouth"
+        },
+        {
+          "code": "C048",
+          "display": "Overlapping lesion of floor of mouth"
+        },
+        {
+          "code": "C049",
+          "display": "Floor of mouth, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C05",
+      "display": "PALATE",
+      "concept": [
+        {
+          "code": "C050",
+          "display": "Hard palate"
+        },
+        {
+          "code": "C051",
+          "display": "Soft palate, NOS"
+        },
+        {
+          "code": "C052",
+          "display": "Uvula"
+        },
+        {
+          "code": "C058",
+          "display": "Overlapping lesion of palate",
+          "designation": [
+            {
+              "value": "Junction of hard and soft palate"
+            }
+          ]
+        },
+        {
+          "code": "C059",
+          "display": "Palate, NOS",
+          "designation": [
+            {
+              "value": "Roof of mouth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C06",
+      "display": "OTHER AND UNSPECIFIED PARTS OF MOUTH",
+      "concept": [
+        {
+          "code": "C060",
+          "display": "Cheek mucosa",
+          "designation": [
+            {
+              "value": "Buccal mucosa"
+            },
+            {
+              "value": "Internal cheek"
+            }
+          ]
+        },
+        {
+          "code": "C061",
+          "display": "Vestibule of mouth",
+          "designation": [
+            {
+              "value": "Buccal sulcus"
+            },
+            {
+              "value": "Labial sulcus"
+            }
+          ]
+        },
+        {
+          "code": "C062",
+          "display": "Retromolar area",
+          "designation": [
+            {
+              "value": "Retromolar triangle"
+            },
+            {
+              "value": "Retromolar trigone"
+            }
+          ]
+        },
+        {
+          "code": "C068",
+          "display": "Overlapping lesion of other and unspecified parts of mouth"
+        },
+        {
+          "code": "C069",
+          "display": "Mouth, NOS",
+          "designation": [
+            {
+              "value": "Buccal cavity"
+            },
+            {
+              "value": "Minor salivary gland, NOS"
+            },
+            {
+              "value": "Oral cavity"
+            },
+            {
+              "value": "Oral mucosa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C07",
+      "display": "PAROTID GLAND",
+      "concept": [
+        {
+          "code": "C079",
+          "display": "Parotid gland",
+          "designation": [
+            {
+              "value": "Parotid gland duct"
+            },
+            {
+              "value": "Parotid, NOS"
+            },
+            {
+              "value": "Stensen duct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C08",
+      "display": "OTHER AND UNSPECIFIED MAJOR SALIVARY GLANDS",
+      "concept": [
+        {
+          "code": "C080",
+          "display": "Submandibular gland",
+          "designation": [
+            {
+              "value": "Submaxillary gland"
+            },
+            {
+              "value": "Submaxillary gland duct"
+            },
+            {
+              "value": "Wharton duct"
+            }
+          ]
+        },
+        {
+          "code": "C081",
+          "display": "Sublingual gland",
+          "designation": [
+            {
+              "value": "Sublingual gland duct"
+            }
+          ]
+        },
+        {
+          "code": "C088",
+          "display": "Overlapping lesion of major salivary glands"
+        },
+        {
+          "code": "C089",
+          "display": "Major salivary gland, NOS",
+          "designation": [
+            {
+              "value": "minor salivary gland, NOS"
+            },
+            {
+              "value": "Salivary gland, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C09",
+      "display": "TONSIL",
+      "concept": [
+        {
+          "code": "C090",
+          "display": "Tonsillar fossa"
+        },
+        {
+          "code": "C091",
+          "display": "Tonsillar pillar",
+          "designation": [
+            {
+              "value": "Faucial pillar"
+            },
+            {
+              "value": "Glossopalatine fold"
+            }
+          ]
+        },
+        {
+          "code": "C098",
+          "display": "Overlapping lesion of tonsil"
+        },
+        {
+          "code": "C099",
+          "display": "Tonsil, NOS",
+          "designation": [
+            {
+              "value": "Faucial tonsil"
+            },
+            {
+              "value": "Palatine tonsil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C10",
+      "display": "OROPHARYNX",
+      "concept": [
+        {
+          "code": "C100",
+          "display": "Vallecula"
+        },
+        {
+          "code": "C101",
+          "display": "Anterior surface of epiglottis"
+        },
+        {
+          "code": "C102",
+          "display": "Lateral wall of oropharynx",
+          "designation": [
+            {
+              "value": "Lateral wall of mesopharynx"
+            }
+          ]
+        },
+        {
+          "code": "C103",
+          "display": "Posterior wall of oropharynx",
+          "designation": [
+            {
+              "value": "Posterior wall of mesopharynx"
+            }
+          ]
+        },
+        {
+          "code": "C104",
+          "display": "Branchial cleft"
+        },
+        {
+          "code": "C108",
+          "display": "Overlapping lesion of oropharynx",
+          "designation": [
+            {
+              "value": "Junctional region of oropharynx"
+            }
+          ]
+        },
+        {
+          "code": "C109",
+          "display": "Oropharynx, NOS",
+          "designation": [
+            {
+              "value": "Fauces, NOS"
+            },
+            {
+              "value": "Mesopharynx, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C11",
+      "display": "NASOPHARYNX",
+      "concept": [
+        {
+          "code": "C110",
+          "display": "Superior wall of nasopharynx",
+          "designation": [
+            {
+              "value": "Roof of nasopharynx"
+            }
+          ]
+        },
+        {
+          "code": "C111",
+          "display": "Posterior wall of nasopharynx",
+          "designation": [
+            {
+              "value": "Adenoid"
+            },
+            {
+              "value": "Pharyngeal tonsil"
+            }
+          ]
+        },
+        {
+          "code": "C112",
+          "display": "Lateral wall of nasopharynx",
+          "designation": [
+            {
+              "value": "Fossa of Rosenmuller"
+            }
+          ]
+        },
+        {
+          "code": "C113",
+          "display": "Anterior wall of nasopharynx",
+          "designation": [
+            {
+              "value": "Choana"
+            },
+            {
+              "value": "Nasopharyngeal surface of soft palate"
+            },
+            {
+              "value": "Pharyngeal fornix"
+            },
+            {
+              "value": "Posterior margin of nasal septum"
+            }
+          ]
+        },
+        {
+          "code": "C118",
+          "display": "Overlapping lesion of nasopharynx"
+        },
+        {
+          "code": "C119",
+          "display": "Nasopharynx, NOS",
+          "designation": [
+            {
+              "value": "Nasopharyngeal wall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C12",
+      "display": "PYRIFORM SINUS",
+      "concept": [
+        {
+          "code": "C129",
+          "display": "Pyriform sinus",
+          "designation": [
+            {
+              "value": "Piriform fossa"
+            },
+            {
+              "value": "Piriform sinus"
+            },
+            {
+              "value": "Pyriform fossa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C13",
+      "display": "HYPOPHARYNX",
+      "concept": [
+        {
+          "code": "C130",
+          "display": "Postcricoid region",
+          "designation": [
+            {
+              "value": "Cricoid, NOS"
+            },
+            {
+              "value": "Cricopharynx"
+            }
+          ]
+        },
+        {
+          "code": "C131",
+          "display": "Hypopharyngeal aspect of aryepiglottic fold",
+          "designation": [
+            {
+              "value": "Aryepiglottic fold, NOS"
+            },
+            {
+              "value": "Arytenoid fold"
+            },
+            {
+              "value": "laryngeal aspect of aryepiglottic fold"
+            }
+          ]
+        },
+        {
+          "code": "C132",
+          "display": "Posterior wall of hypopharynx"
+        },
+        {
+          "code": "C138",
+          "display": "Overlapping lesion of hypopharynx"
+        },
+        {
+          "code": "C139",
+          "display": "Hypopharynx, NOS",
+          "designation": [
+            {
+              "value": "Hypopharyngeal wall"
+            },
+            {
+              "value": "Laryngopharynx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C14",
+      "display": "OTHER AND ILL-DEFINED SITES IN LIP, ORAL CAVITY AND PHARYNX",
+      "concept": [
+        {
+          "code": "C140",
+          "display": "Pharynx, NOS",
+          "designation": [
+            {
+              "value": "Lateral wall of pharynx, NOS"
+            },
+            {
+              "value": "Pharyngeal wall, NOS"
+            },
+            {
+              "value": "Posterior wall of pharynx, NOS"
+            },
+            {
+              "value": "Retropharynx"
+            },
+            {
+              "value": "Throat"
+            },
+            {
+              "value": "Wall of pharynx, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C142",
+          "display": "Waldeyer ring"
+        },
+        {
+          "code": "C148",
+          "display": "Overlapping lesion of lip, oral cavity and pharynx"
+        }
+      ]
+    },
+    {
+      "code": "C15",
+      "display": "ESOPHAGUS",
+      "concept": [
+        {
+          "code": "C150",
+          "display": "Cervical esophagus"
+        },
+        {
+          "code": "C151",
+          "display": "Thoracic esophagus"
+        },
+        {
+          "code": "C152",
+          "display": "Abdominal esophagus"
+        },
+        {
+          "code": "C153",
+          "display": "Upper third of esophagus",
+          "designation": [
+            {
+              "value": "Proximal third of esophagus"
+            }
+          ]
+        },
+        {
+          "code": "C154",
+          "display": "Middle third of esophagus"
+        },
+        {
+          "code": "C155",
+          "display": "Lower third of esophagus",
+          "designation": [
+            {
+              "value": "Distal third of esophagus"
+            }
+          ]
+        },
+        {
+          "code": "C158",
+          "display": "Overlapping lesion of esophagus"
+        },
+        {
+          "code": "C159",
+          "display": "Esophagus, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C16",
+      "display": "STOMACH",
+      "concept": [
+        {
+          "code": "C160",
+          "display": "Cardia, NOS",
+          "designation": [
+            {
+              "value": "Cardioesophageal junction"
+            },
+            {
+              "value": "Esophagogastric junction"
+            },
+            {
+              "value": "Gastric cardia"
+            },
+            {
+              "value": "Gastroesophageal junction"
+            }
+          ]
+        },
+        {
+          "code": "C161",
+          "display": "Fundus of stomach",
+          "designation": [
+            {
+              "value": "Gastric fundus"
+            }
+          ]
+        },
+        {
+          "code": "C162",
+          "display": "Body of stomach",
+          "designation": [
+            {
+              "value": "Corpus of stomach"
+            },
+            {
+              "value": "Gastric corpus"
+            }
+          ]
+        },
+        {
+          "code": "C163",
+          "display": "Gastric antrum",
+          "designation": [
+            {
+              "value": "Antrum of stomach"
+            },
+            {
+              "value": "Pyloric antrum"
+            }
+          ]
+        },
+        {
+          "code": "C164",
+          "display": "Pylorus",
+          "designation": [
+            {
+              "value": "Prepylorus"
+            },
+            {
+              "value": "Pyloric canal"
+            }
+          ]
+        },
+        {
+          "code": "C165",
+          "display": "Lesser curvature of stomach, NOS"
+        },
+        {
+          "code": "C166",
+          "display": "Greater curvature of stomach, NOS"
+        },
+        {
+          "code": "C168",
+          "display": "Overlapping lesion of stomach",
+          "designation": [
+            {
+              "value": "Anterior wall of stomach, NOS"
+            },
+            {
+              "value": "Posterior wall of stomach, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C169",
+          "display": "Stomach, NOS",
+          "designation": [
+            {
+              "value": "Gastric, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C17",
+      "display": "SMALL INTESTINE",
+      "concept": [
+        {
+          "code": "C170",
+          "display": "Duodenum"
+        },
+        {
+          "code": "C171",
+          "display": "Jejunum"
+        },
+        {
+          "code": "C172",
+          "display": "Ileum"
+        },
+        {
+          "code": "C173",
+          "display": "Meckel diverticulum"
+        },
+        {
+          "code": "C178",
+          "display": "Overlapping lesion of smallintestine"
+        },
+        {
+          "code": "C179",
+          "display": "Small intestine, NOS",
+          "designation": [
+            {
+              "value": "Small bowel, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C18",
+      "display": "COLON",
+      "concept": [
+        {
+          "code": "C180",
+          "display": "Cecum",
+          "designation": [
+            {
+              "value": "Ileocecal junction"
+            },
+            {
+              "value": "Ileocecal valve"
+            }
+          ]
+        },
+        {
+          "code": "C181",
+          "display": "Appendix"
+        },
+        {
+          "code": "C182",
+          "display": "Ascending colon",
+          "designation": [
+            {
+              "value": "Right colon"
+            }
+          ]
+        },
+        {
+          "code": "C183",
+          "display": "Hepatic flexure of colon"
+        },
+        {
+          "code": "C184",
+          "display": "Transverse colon"
+        },
+        {
+          "code": "C185",
+          "display": "Splenic flexure of colon"
+        },
+        {
+          "code": "C186",
+          "display": "Descending colon",
+          "designation": [
+            {
+              "value": "Left colon"
+            }
+          ]
+        },
+        {
+          "code": "C187",
+          "display": "Sigmoid colon",
+          "designation": [
+            {
+              "value": "Pelvic colon"
+            },
+            {
+              "value": "Sigmoid flexure of colon"
+            },
+            {
+              "value": "Sigmoid, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C188",
+          "display": "Overlapping lesion of colon"
+        },
+        {
+          "code": "C189",
+          "display": "Colon, NOS",
+          "designation": [
+            {
+              "value": "and rectosigmoid junction"
+            },
+            {
+              "value": "Large bowel, NOS"
+            },
+            {
+              "value": "Large intestine"
+            },
+            {
+              "value": "rectum, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C19",
+      "display": "RECTOSIGMOID JUNCTION",
+      "concept": [
+        {
+          "code": "C199",
+          "display": "Rectosigmoid junction",
+          "designation": [
+            {
+              "value": "Colon and rectum"
+            },
+            {
+              "value": "Pelvirectal junction"
+            },
+            {
+              "value": "Rectosigmoid colon"
+            },
+            {
+              "value": "Rectosigmoid, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C20",
+      "display": "RECTUM",
+      "concept": [
+        {
+          "code": "C209",
+          "display": "Rectum, NOS",
+          "designation": [
+            {
+              "value": "Rectal ampulla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C21",
+      "display": "ANUS AND ANAL CANAL",
+      "concept": [
+        {
+          "code": "C210",
+          "display": "Anus, NOS"
+        },
+        {
+          "code": "C211",
+          "display": "Anal canal",
+          "designation": [
+            {
+              "value": "Anal sphincter"
+            }
+          ]
+        },
+        {
+          "code": "C212",
+          "display": "Cloacogenic zone"
+        },
+        {
+          "code": "C218",
+          "display": "Overlapping lesion of rectum, anus and anal canal",
+          "designation": [
+            {
+              "value": "Anorectal junction"
+            },
+            {
+              "value": "Anorectum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C22",
+      "display": "LIVER AND INTRAHEPATIC BILE DUCTS",
+      "concept": [
+        {
+          "code": "C220",
+          "display": "Liver",
+          "designation": [
+            {
+              "value": "Hepatic, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C221",
+          "display": "Intrahepatic bile duct",
+          "designation": [
+            {
+              "value": "Biliary canaliculus"
+            },
+            {
+              "value": "Cholangiole"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C23",
+      "display": "GALLBLADDER",
+      "concept": [
+        {
+          "code": "C239",
+          "display": "Gallbladder"
+        }
+      ]
+    },
+    {
+      "code": "C24",
+      "display": "OTHER AND UNSPECIFIED PARTS OF BILIARY TRACT",
+      "concept": [
+        {
+          "code": "C240",
+          "display": "Extrahepatic bile duct",
+          "designation": [
+            {
+              "value": "Bile duct, NOS"
+            },
+            {
+              "value": "Biliary duct, NOS"
+            },
+            {
+              "value": "Choledochal duct"
+            },
+            {
+              "value": "Common bile duct"
+            },
+            {
+              "value": "Common duct"
+            },
+            {
+              "value": "Cystic bile duct"
+            },
+            {
+              "value": "Cystic duct"
+            },
+            {
+              "value": "Hepatic bile duct"
+            },
+            {
+              "value": "Hepatic duct"
+            },
+            {
+              "value": "Sphincter of Oddi"
+            }
+          ]
+        },
+        {
+          "code": "C241",
+          "display": "Ampulla of Vater",
+          "designation": [
+            {
+              "value": "Periampullary"
+            }
+          ]
+        },
+        {
+          "code": "C248",
+          "display": "Overlapping lesion of biliary tract Note:"
+        },
+        {
+          "code": "C249",
+          "display": "Biliary tract, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C25",
+      "display": "PANCREAS",
+      "concept": [
+        {
+          "code": "C250",
+          "display": "Head of pancreas"
+        },
+        {
+          "code": "C251",
+          "display": "Body of pancreas"
+        },
+        {
+          "code": "C252",
+          "display": "Tail of pancreas"
+        },
+        {
+          "code": "C253",
+          "display": "Pancreatic duct",
+          "designation": [
+            {
+              "value": "Duct of Santorini"
+            },
+            {
+              "value": "Duct of Wirsung"
+            }
+          ]
+        },
+        {
+          "code": "C254",
+          "display": "Islets of Langerhans",
+          "designation": [
+            {
+              "value": "Endocrine pancreas"
+            },
+            {
+              "value": "Islands of Langerhans"
+            }
+          ]
+        },
+        {
+          "code": "C257",
+          "display": "Other specified parts of pancreas",
+          "designation": [
+            {
+              "value": "Neck of pancreas"
+            }
+          ]
+        },
+        {
+          "code": "C258",
+          "display": "Overlapping lesion of pancreas"
+        },
+        {
+          "code": "C259",
+          "display": "Pancreas, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C26",
+      "display": "OTHER AND ILL-DEFINED DIGESTIVE ORGANS",
+      "concept": [
+        {
+          "code": "C260",
+          "display": "Intestinal tract, NOS",
+          "designation": [
+            {
+              "value": "Bowel, NOS"
+            },
+            {
+              "value": "Intestine, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C268",
+          "display": "Overlapping lesion of digestive system"
+        },
+        {
+          "code": "C269",
+          "display": "Gastrointestinal tract, NOS",
+          "designation": [
+            {
+              "value": "Digestive organs, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C30",
+      "display": "NASAL CAVITY AND MIDDLE EAR",
+      "concept": [
+        {
+          "code": "C300",
+          "display": "Nasal cavity",
+          "designation": [
+            {
+              "value": "Internal nose"
+            },
+            {
+              "value": "Naris"
+            },
+            {
+              "value": "Nasal cartilage"
+            },
+            {
+              "value": "Nasal mucosa"
+            },
+            {
+              "value": "Nasal septum, NOS"
+            },
+            {
+              "value": "Nasal turbinate"
+            },
+            {
+              "value": "Nostril"
+            },
+            {
+              "value": "posterior margin of nasal septum"
+            },
+            {
+              "value": "Vestibule of nose"
+            }
+          ]
+        },
+        {
+          "code": "C301",
+          "display": "Middle ear",
+          "designation": [
+            {
+              "value": "Auditory tube"
+            },
+            {
+              "value": "Eustachian tube"
+            },
+            {
+              "value": "Inner ear"
+            },
+            {
+              "value": "Mastoid antrum"
+            },
+            {
+              "value": "Tympanic cavity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C31",
+      "display": "ACCESSORY SINUSES",
+      "concept": [
+        {
+          "code": "C310",
+          "display": "Maxillary sinus",
+          "designation": [
+            {
+              "value": "Antrum, NOS"
+            },
+            {
+              "value": "Maxillary antrum"
+            }
+          ]
+        },
+        {
+          "code": "C311",
+          "display": "Ethmoid sinus"
+        },
+        {
+          "code": "C312",
+          "display": "Frontal sinus"
+        },
+        {
+          "code": "C313",
+          "display": "Sphenoid sinus"
+        },
+        {
+          "code": "C318",
+          "display": "Overlapping lesion of accessory sinuses"
+        },
+        {
+          "code": "C319",
+          "display": "Accessory sinus, NOS",
+          "designation": [
+            {
+              "value": "Accessory nasal sinus"
+            },
+            {
+              "value": "Paranasal sinus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C32",
+      "display": "LARYNX",
+      "concept": [
+        {
+          "code": "C320",
+          "display": "Glottis",
+          "designation": [
+            {
+              "value": "Intrinsic larynx"
+            },
+            {
+              "value": "Laryngeal commissure"
+            },
+            {
+              "value": "True cord"
+            },
+            {
+              "value": "True vocal cord"
+            },
+            {
+              "value": "Vocal cord, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C321",
+          "display": "Supraglottis",
+          "designation": [
+            {
+              "value": "anterior surface of epiglottis"
+            },
+            {
+              "value": "Epiglottis, NOS"
+            },
+            {
+              "value": "Extrinsic larynx"
+            },
+            {
+              "value": "False cord"
+            },
+            {
+              "value": "False vocal cord"
+            },
+            {
+              "value": "Laryngeal aspect of aryepiglottic fold"
+            },
+            {
+              "value": "Posterior surface of epiglottis"
+            },
+            {
+              "value": "Ventricular band of larynx"
+            }
+          ]
+        },
+        {
+          "code": "C322",
+          "display": "Subglottis"
+        },
+        {
+          "code": "C323",
+          "display": "Laryngeal cartilage",
+          "designation": [
+            {
+              "value": "Arytenoid cartilage"
+            },
+            {
+              "value": "Cricoid cartilage"
+            },
+            {
+              "value": "Cuneiform cartilage"
+            },
+            {
+              "value": "Thyroid cartilage"
+            }
+          ]
+        },
+        {
+          "code": "C328",
+          "display": "Overlapping lesion of larynx"
+        },
+        {
+          "code": "C329",
+          "display": "Larynx, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C33",
+      "display": "TRACHEA",
+      "concept": [
+        {
+          "code": "C339",
+          "display": "Trachea"
+        }
+      ]
+    },
+    {
+      "code": "C34",
+      "display": "BRONCHUS AND LUNG",
+      "concept": [
+        {
+          "code": "C340",
+          "display": "Main bronchus",
+          "designation": [
+            {
+              "value": "Carina"
+            },
+            {
+              "value": "Hilus of lung"
+            }
+          ]
+        },
+        {
+          "code": "C341",
+          "display": "Upper lobe, lung",
+          "designation": [
+            {
+              "value": "Lingula of lung"
+            },
+            {
+              "value": "Upper lobe, bronchus"
+            }
+          ]
+        },
+        {
+          "code": "C342",
+          "display": "Middle lobe, lung",
+          "designation": [
+            {
+              "value": "Middle lobe, bronchus"
+            }
+          ]
+        },
+        {
+          "code": "C343",
+          "display": "Lower lobe, lung",
+          "designation": [
+            {
+              "value": "Lower lobe, bronchus"
+            }
+          ]
+        },
+        {
+          "code": "C348",
+          "display": "Overlapping lesion of lung"
+        },
+        {
+          "code": "C349",
+          "display": "Lung, NOS",
+          "designation": [
+            {
+              "value": "Bronchiole"
+            },
+            {
+              "value": "Bronchogenic"
+            },
+            {
+              "value": "Bronchus, NOS"
+            },
+            {
+              "value": "Pulmonary, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C37",
+      "display": "THYMUS",
+      "concept": [
+        {
+          "code": "C379",
+          "display": "Thymus"
+        }
+      ]
+    },
+    {
+      "code": "C38",
+      "display": "HEART, MEDIASTINUM, AND PLEURA",
+      "concept": [
+        {
+          "code": "C380",
+          "display": "Heart",
+          "designation": [
+            {
+              "value": "Cardiac atrium"
+            },
+            {
+              "value": "Cardiac ventricle"
+            },
+            {
+              "value": "Endocardium"
+            },
+            {
+              "value": "Epicardium"
+            },
+            {
+              "value": "Myocardium"
+            },
+            {
+              "value": "Pericardium"
+            }
+          ]
+        },
+        {
+          "code": "C381",
+          "display": "Anterior mediastinum"
+        },
+        {
+          "code": "C382",
+          "display": "Posterior mediastinum"
+        },
+        {
+          "code": "C383",
+          "display": "Mediastinum, NOS"
+        },
+        {
+          "code": "C384",
+          "display": "Pleura, NOS",
+          "designation": [
+            {
+              "value": "Parietal pleura"
+            },
+            {
+              "value": "Visceral pleura"
+            }
+          ]
+        },
+        {
+          "code": "C388",
+          "display": "Overlapping lesion of heart, mediastinum and pleura"
+        }
+      ]
+    },
+    {
+      "code": "C39",
+      "display": "OTHER AND ILL-DEFINED SITES WITHIN RESPIRATORY SYSTEM AND INTRATHORACIC ORGANS",
+      "concept": [
+        {
+          "code": "C390",
+          "display": "Upper respiratory tract, NOS"
+        },
+        {
+          "code": "C398",
+          "display": "Overlapping lesion of respiratory system and intrathoracic organs"
+        },
+        {
+          "code": "C399",
+          "display": "Ill-defined sites within respiratory system",
+          "designation": [
+            {
+              "value": "Respiratory tract, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C40",
+      "display": "BONES, JOINTS AND ARTICULAR CARTILAGE OF LIMBS",
+      "concept": [
+        {
+          "code": "C400",
+          "display": "Long bones of upper limb, scapula and associated joints",
+          "designation": [
+            {
+              "value": "Acromioclavicular joint"
+            },
+            {
+              "value": "Bone of arm"
+            },
+            {
+              "value": "Bone of forearm"
+            },
+            {
+              "value": "Bone of shoulder"
+            },
+            {
+              "value": "Elbow joint"
+            },
+            {
+              "value": "Humerus"
+            },
+            {
+              "value": "Radius"
+            },
+            {
+              "value": "Scapula"
+            },
+            {
+              "value": "Shoulder girdle"
+            },
+            {
+              "value": "Shoulder joint"
+            },
+            {
+              "value": "Ulna"
+            }
+          ]
+        },
+        {
+          "code": "C401",
+          "display": "Short bones of upper limb and associated joints",
+          "designation": [
+            {
+              "value": "Bone of finger"
+            },
+            {
+              "value": "Bone of hand"
+            },
+            {
+              "value": "Bone of thumb"
+            },
+            {
+              "value": "Bone of wrist"
+            },
+            {
+              "value": "Carpal bone"
+            },
+            {
+              "value": "Hand joint"
+            },
+            {
+              "value": "Metacarpal bone"
+            },
+            {
+              "value": "Phalanx of hand"
+            },
+            {
+              "value": "Wrist joint"
+            }
+          ]
+        },
+        {
+          "code": "C402",
+          "display": "Long bones of lower limb and associated joints",
+          "designation": [
+            {
+              "value": "Bone of leg"
+            },
+            {
+              "value": "Femur"
+            },
+            {
+              "value": "Fibula"
+            },
+            {
+              "value": "Knee joint, NOS"
+            },
+            {
+              "value": "Lateral meniscus of knee joint"
+            },
+            {
+              "value": "Medial meniscus of knee joint"
+            },
+            {
+              "value": "Semilunar cartilage"
+            },
+            {
+              "value": "Tibia"
+            }
+          ]
+        },
+        {
+          "code": "C403",
+          "display": "Short bones of lower limb and associated joints",
+          "designation": [
+            {
+              "value": "Ankle joint"
+            },
+            {
+              "value": "Bone of ankle"
+            },
+            {
+              "value": "Bone of foot"
+            },
+            {
+              "value": "Bone of heel"
+            },
+            {
+              "value": "Bone of toe"
+            },
+            {
+              "value": "Foot joint"
+            },
+            {
+              "value": "Metatarsal bone"
+            },
+            {
+              "value": "Patella"
+            },
+            {
+              "value": "Phalanx of foot"
+            },
+            {
+              "value": "Tarsal bone"
+            }
+          ]
+        },
+        {
+          "code": "C408",
+          "display": "Overlapping lesion of bones, joints and articular cartilage of limbs"
+        },
+        {
+          "code": "C409",
+          "display": "Bone of limb, NOS",
+          "designation": [
+            {
+              "value": "Articular cartilage of limb, NOS"
+            },
+            {
+              "value": "Cartilage of limb, NOS"
+            },
+            {
+              "value": "Joint of limb, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C41",
+      "display": "BONES, JOINTS AND ARTICULAR CARTILAGE OF OTHER AND UNSPECIFIED SITES",
+      "concept": [
+        {
+          "code": "C410",
+          "display": "Bones of skull and face and associated joints",
+          "designation": [
+            {
+              "value": "Calvarium"
+            },
+            {
+              "value": "Cranial bone"
+            },
+            {
+              "value": "Ethmoid bone"
+            },
+            {
+              "value": "Facial bone"
+            },
+            {
+              "value": "Frontal bone"
+            },
+            {
+              "value": "Hyoid bone"
+            },
+            {
+              "value": "Maxilla"
+            },
+            {
+              "value": "Nasal bone"
+            },
+            {
+              "value": "Occipital bone"
+            },
+            {
+              "value": "Orbital bone"
+            },
+            {
+              "value": "Parietal bone"
+            },
+            {
+              "value": "Skull, NOS"
+            },
+            {
+              "value": "Sphenoid bone"
+            },
+            {
+              "value": "Temporal bone"
+            },
+            {
+              "value": "Upper jaw bone"
+            },
+            {
+              "value": "Zygomatic bone"
+            }
+          ]
+        },
+        {
+          "code": "C411",
+          "display": "Mandible",
+          "designation": [
+            {
+              "value": "Jaw bone, NOS"
+            },
+            {
+              "value": "Lower jaw bone"
+            },
+            {
+              "value": "Temporomandibular joint"
+            }
+          ]
+        },
+        {
+          "code": "C412",
+          "display": "Vertebral column",
+          "designation": [
+            {
+              "value": "Atlas"
+            },
+            {
+              "value": "Axis"
+            },
+            {
+              "value": "Bone of back"
+            },
+            {
+              "value": "Intervertebral disc"
+            },
+            {
+              "value": "Nucleus pulposus"
+            },
+            {
+              "value": "Spinal column"
+            },
+            {
+              "value": "Spine"
+            },
+            {
+              "value": "Vertebra"
+            }
+          ]
+        },
+        {
+          "code": "C413",
+          "display": "Rib, sternum, clavicle and associated joints",
+          "designation": [
+            {
+              "value": "Costal cartilage"
+            },
+            {
+              "value": "Costovertebral joint"
+            },
+            {
+              "value": "Sternocostal joint"
+            }
+          ]
+        },
+        {
+          "code": "C414",
+          "display": "Pelvic bones, sacrum, coccyx and associated joints",
+          "designation": [
+            {
+              "value": "Acetabulum"
+            },
+            {
+              "value": "Bone of hip"
+            },
+            {
+              "value": "Coccyx"
+            },
+            {
+              "value": "Hip joint"
+            },
+            {
+              "value": "Ilium"
+            },
+            {
+              "value": "Innominate bone"
+            },
+            {
+              "value": "Ischium"
+            },
+            {
+              "value": "Pelvic bone"
+            },
+            {
+              "value": "Pubic bone"
+            },
+            {
+              "value": "Sacrum"
+            },
+            {
+              "value": "Symphysis pubis"
+            }
+          ]
+        },
+        {
+          "code": "C418",
+          "display": "Overlapping lesion of bones, joints and articular cartilage"
+        },
+        {
+          "code": "C419",
+          "display": "Bone, NOS",
+          "designation": [
+            {
+              "value": "Articular cartilage, NOS"
+            },
+            {
+              "value": "Cartilage, NOS"
+            },
+            {
+              "value": "Joint, NOS"
+            },
+            {
+              "value": "Skeletal bone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C42",
+      "display": "HEMATOPOIETIC AND RETICULOENDOTHELIAL SYSTEMS",
+      "concept": [
+        {
+          "code": "C420",
+          "display": "Blood"
+        },
+        {
+          "code": "C421",
+          "display": "Bone marrow"
+        },
+        {
+          "code": "C422",
+          "display": "Spleen"
+        },
+        {
+          "code": "C423",
+          "display": "Reticuloendothelial system,NOS"
+        },
+        {
+          "code": "C424",
+          "display": "Hematopoietic system, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C44",
+      "display": "SKIN",
+      "concept": [
+        {
+          "code": "C440",
+          "display": "Skin of lip, NOS",
+          "designation": [
+            {
+              "value": "Skin of lower lip"
+            },
+            {
+              "value": "Skin of upper lip"
+            }
+          ]
+        },
+        {
+          "code": "C441",
+          "display": "Eyelid",
+          "designation": [
+            {
+              "value": "Canthus, NOS"
+            },
+            {
+              "value": "Inner canthus"
+            },
+            {
+              "value": "Lid, NOS"
+            },
+            {
+              "value": "Lower lid"
+            },
+            {
+              "value": "Meibomian gland"
+            },
+            {
+              "value": "Outer canthus"
+            },
+            {
+              "value": "Palpebra"
+            },
+            {
+              "value": "Upper lid"
+            }
+          ]
+        },
+        {
+          "code": "C442",
+          "display": "External ear",
+          "designation": [
+            {
+              "value": "Auditory canal, NOS"
+            },
+            {
+              "value": "Auricle, NOS"
+            },
+            {
+              "value": "Auricular canal, NOS"
+            },
+            {
+              "value": "Ceruminal gland"
+            },
+            {
+              "value": "Concha"
+            },
+            {
+              "value": "Ear canal"
+            },
+            {
+              "value": "Ear lobule"
+            },
+            {
+              "value": "Ear, NOS"
+            },
+            {
+              "value": "Earlobe"
+            },
+            {
+              "value": "External auditory canal"
+            },
+            {
+              "value": "External auditory meatus"
+            },
+            {
+              "value": "External auricular canal"
+            },
+            {
+              "value": "Helix"
+            },
+            {
+              "value": "Pinna"
+            },
+            {
+              "value": "Skin of auricle"
+            },
+            {
+              "value": "Skin of ear, NOS"
+            },
+            {
+              "value": "Tragus"
+            }
+          ]
+        },
+        {
+          "code": "C443",
+          "display": "Skin of other and unspecified parts of face",
+          "designation": [
+            {
+              "value": "Ala nasi"
+            },
+            {
+              "value": "Brow"
+            },
+            {
+              "value": "Chin, NOS"
+            },
+            {
+              "value": "Columnella"
+            },
+            {
+              "value": "External cheek"
+            },
+            {
+              "value": "External nose"
+            },
+            {
+              "value": "Eyebrow"
+            },
+            {
+              "value": "Forehead, NOS"
+            },
+            {
+              "value": "Temple, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C444",
+          "display": "Skin of scalp and neck",
+          "designation": [
+            {
+              "value": "Scalp, NOS"
+            },
+            {
+              "value": "Skin of cervical region"
+            },
+            {
+              "value": "Skin of head, NOS"
+            },
+            {
+              "value": "Skin of neck"
+            },
+            {
+              "value": "Skin of scalp"
+            },
+            {
+              "value": "Skin of supraclavicular region"
+            }
+          ]
+        },
+        {
+          "code": "C445",
+          "display": "Skin of trunk",
+          "designation": [
+            {
+              "value": "Perianal skin"
+            },
+            {
+              "value": "Umbilicus, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C446",
+          "display": "Skin of upper limb and shoulder",
+          "designation": [
+            {
+              "value": "Finger nail"
+            },
+            {
+              "value": "Palmar skin"
+            }
+          ]
+        },
+        {
+          "code": "C447",
+          "display": "Skin of lower limb and hip",
+          "designation": [
+            {
+              "value": "Plantar skin"
+            },
+            {
+              "value": "Sole of foot"
+            },
+            {
+              "value": "Toe nail"
+            }
+          ]
+        },
+        {
+          "code": "C448",
+          "display": "Overlapping lesion of skin"
+        },
+        {
+          "code": "C449",
+          "display": "Skin, NOS",
+          "designation": [
+            {
+              "value": "C51.0, skin of vulva C51.9, skin of penis C60.9 and skin of scrotum C63.2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C47",
+      "display": "PERIPHERAL NERVES AND AUTONOMIC NERVOUS SYSTEM",
+      "concept": [
+        {
+          "code": "C470",
+          "display": "Peripheral nerves and autonomic nervous system of head, face, and neck",
+          "designation": [
+            {
+              "value": "Cervical plexus"
+            }
+          ]
+        },
+        {
+          "code": "C471",
+          "display": "Peripheral nerves and autonomic nervous system of upper limb and shoulder",
+          "designation": [
+            {
+              "value": "Brachial nerve"
+            },
+            {
+              "value": "Brachial plexus"
+            },
+            {
+              "value": "Median nerve"
+            },
+            {
+              "value": "Radial nerve"
+            },
+            {
+              "value": "Ulnar nerve"
+            }
+          ]
+        },
+        {
+          "code": "C472",
+          "display": "Peripheral nerves and autonomic nervous system of lower limband hip",
+          "designation": [
+            {
+              "value": "Femoral nerve"
+            },
+            {
+              "value": "Obturator nerve"
+            },
+            {
+              "value": "Sciatic nerve"
+            }
+          ]
+        },
+        {
+          "code": "C473",
+          "display": "Peripheral nerves and autonomic nervous system of thorax",
+          "designation": [
+            {
+              "value": "Intercostal nerve"
+            }
+          ]
+        },
+        {
+          "code": "C474",
+          "display": "Peripheral nerves and autonomic nervous system of abdomen"
+        },
+        {
+          "code": "C475",
+          "display": "Peripheral nerves and autonomic nervous system of pelvis",
+          "designation": [
+            {
+              "value": "Lumbosacral plexus"
+            },
+            {
+              "value": "Sacral nerve"
+            },
+            {
+              "value": "Sacral plexus"
+            }
+          ]
+        },
+        {
+          "code": "C476",
+          "display": "Peripheral nerves and autonomic nervous system of trunk, NOS",
+          "designation": [
+            {
+              "value": "Lumbar nerve"
+            }
+          ]
+        },
+        {
+          "code": "C478",
+          "display": "Overlapping lesion of peripheral nerves and autonomic nervous system"
+        },
+        {
+          "code": "C479",
+          "display": "Autonomic nervous system, NOS",
+          "designation": [
+            {
+              "value": "Ganglia, NOS"
+            },
+            {
+              "value": "Nerve, NOS"
+            },
+            {
+              "value": "Parasympathetic nervous system, NOS"
+            },
+            {
+              "value": "Peripheral nerve, NOS"
+            },
+            {
+              "value": "Spinal nerve, NOS"
+            },
+            {
+              "value": "Sympathetic nervous system, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C48",
+      "display": "RETROPERITONEUM AND PERITONEUM",
+      "concept": [
+        {
+          "code": "C480",
+          "display": "Retroperitoneum",
+          "designation": [
+            {
+              "value": "Periadrenal tissue"
+            },
+            {
+              "value": "Perinephric tissue"
+            },
+            {
+              "value": "Peripancreatic tissue"
+            },
+            {
+              "value": "Perirenal tissue"
+            },
+            {
+              "value": "Retrocecal tissue"
+            },
+            {
+              "value": "Retroperitoneal tissue"
+            }
+          ]
+        },
+        {
+          "code": "C481",
+          "display": "Specified parts of peritoneum",
+          "designation": [
+            {
+              "value": "Cul de sac"
+            },
+            {
+              "value": "Mesentery"
+            },
+            {
+              "value": "Mesoappendix"
+            },
+            {
+              "value": "Mesocolon"
+            },
+            {
+              "value": "Omentum"
+            },
+            {
+              "value": "Pelvic peritoneum"
+            },
+            {
+              "value": "Pouch of Douglas"
+            },
+            {
+              "value": "Rectouterine pouch"
+            }
+          ]
+        },
+        {
+          "code": "C482",
+          "display": "Peritoneum, NOS",
+          "designation": [
+            {
+              "value": "Peritoneal cavity"
+            }
+          ]
+        },
+        {
+          "code": "C488",
+          "display": "Overlapping lesion of retroperitoneum and peritoneum"
+        }
+      ]
+    },
+    {
+      "code": "C49",
+      "display": "CONNECTIVE, SUBCUTANEOUS AND OTHER SOFT TISSUES",
+      "concept": [
+        {
+          "code": "C490",
+          "display": "Connective, subcutaneous and other soft tissues of head, face, and neck",
+          "designation": [
+            {
+              "value": "Auricular cartilage"
+            },
+            {
+              "value": "C69.6 and nasal cartilage C30.0)"
+            },
+            {
+              "value": "Carotid artery"
+            },
+            {
+              "value": "Cartilage of ear"
+            },
+            {
+              "value": "Masseter muscle"
+            },
+            {
+              "value": "Sternocleidomastoid muscle"
+            }
+          ]
+        },
+        {
+          "code": "C491",
+          "display": "Connective, subcutaneous and other soft tissues of upper limb and shoulder",
+          "designation": [
+            {
+              "value": "Biceps brachii muscle"
+            },
+            {
+              "value": "Brachialis muscle"
+            },
+            {
+              "value": "Coracobrachialis muscle"
+            },
+            {
+              "value": "Deltoideus muscle"
+            },
+            {
+              "value": "Palmar aponeurosis"
+            },
+            {
+              "value": "Palmar fascia"
+            },
+            {
+              "value": "Radial artery"
+            },
+            {
+              "value": "Triceps brachii muscle"
+            },
+            {
+              "value": "Ulnar artery"
+            }
+          ]
+        },
+        {
+          "code": "C492",
+          "display": "Connective, subcutaneous and other soft tissues of lower limb and hip",
+          "designation": [
+            {
+              "value": "Biceps femoris muscle"
+            },
+            {
+              "value": "Femoral artery"
+            },
+            {
+              "value": "Gastrocnemius muscle"
+            },
+            {
+              "value": "Plantar aponeurosis"
+            },
+            {
+              "value": "Plantar fascia"
+            },
+            {
+              "value": "Quadriceps femoris muscle"
+            }
+          ]
+        },
+        {
+          "code": "C493",
+          "display": "Connective, subcutaneous and other soft tissues of thorax",
+          "designation": [
+            {
+              "value": "Aorta, NOS"
+            },
+            {
+              "value": "Axillary artery"
+            },
+            {
+              "value": "C38._)"
+            },
+            {
+              "value": "Diaphragm"
+            },
+            {
+              "value": "Intercostal muscle"
+            },
+            {
+              "value": "Internal mammary artery"
+            },
+            {
+              "value": "Latissimus dorsi muscle"
+            },
+            {
+              "value": "Pectoralis major muscle"
+            },
+            {
+              "value": "Subclavian artery"
+            },
+            {
+              "value": "Superior vena cava"
+            },
+            {
+              "value": "Thoracic duct"
+            },
+            {
+              "value": "Trapezius muscle"
+            }
+          ]
+        },
+        {
+          "code": "C494",
+          "display": "Connective, subcutaneous and other soft tissues of abdomen",
+          "designation": [
+            {
+              "value": "Abdominal aorta"
+            },
+            {
+              "value": "Abdominal vena cava"
+            },
+            {
+              "value": "Abdominal wall muscle"
+            },
+            {
+              "value": "Celiac artery"
+            },
+            {
+              "value": "Iliopsoas muscle"
+            },
+            {
+              "value": "Inferior vena cava"
+            },
+            {
+              "value": "Mesenteric artery"
+            },
+            {
+              "value": "Psoas muscle"
+            },
+            {
+              "value": "Rectus abdominis muscle"
+            },
+            {
+              "value": "Renal artery"
+            },
+            {
+              "value": "Vena cava, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C495",
+          "display": "Connective, subcutaneous and other soft tissues of pelvis",
+          "designation": [
+            {
+              "value": "Gluteus maximus muscle"
+            },
+            {
+              "value": "Iliac artery"
+            },
+            {
+              "value": "Iliac vein"
+            }
+          ]
+        },
+        {
+          "code": "C496",
+          "display": "Connective, subcutaneous and other soft tissues of trunk NOS"
+        },
+        {
+          "code": "C498",
+          "display": "Overlapping lesion of connective, subcutaneous and other soft tissues"
+        },
+        {
+          "code": "C499",
+          "display": "Connective, subcutaneous and other soft tissues, NOS",
+          "designation": [
+            {
+              "value": "Adipose tissue, NOS"
+            },
+            {
+              "value": "Aponeurosis, NOS"
+            },
+            {
+              "value": "Artery, NOS"
+            },
+            {
+              "value": "Blood vessel, NOS"
+            },
+            {
+              "value": "Bursa, NOS"
+            },
+            {
+              "value": "Connective tissue, NOS"
+            },
+            {
+              "value": "Fascia, NOS"
+            },
+            {
+              "value": "Fatty tissue, NOS"
+            },
+            {
+              "value": "Fibrous tissue, NOS"
+            },
+            {
+              "value": "Ligament, NOS"
+            },
+            {
+              "value": "Lymphatic, NOS"
+            },
+            {
+              "value": "Muscle, NOS"
+            },
+            {
+              "value": "Skeletal muscle, NOS"
+            },
+            {
+              "value": "Subcutaneous tissue, NOS"
+            },
+            {
+              "value": "Synovia, NOS"
+            },
+            {
+              "value": "Tendon sheath, NOS"
+            },
+            {
+              "value": "Tendon, NOS"
+            },
+            {
+              "value": "Vein, NOS"
+            },
+            {
+              "value": "Vessel, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C50",
+      "display": "BREAST",
+      "concept": [
+        {
+          "code": "C500",
+          "display": "Nipple",
+          "designation": [
+            {
+              "value": "Areola"
+            }
+          ]
+        },
+        {
+          "code": "C501",
+          "display": "Central portion of breast"
+        },
+        {
+          "code": "C502",
+          "display": "Upper-inner quadrant of breast"
+        },
+        {
+          "code": "C503",
+          "display": "Lower-inner quadrant of breast"
+        },
+        {
+          "code": "C504",
+          "display": "Upper-outer quadrant of breast"
+        },
+        {
+          "code": "C505",
+          "display": "Lower-outer quadrant of breast"
+        },
+        {
+          "code": "C506",
+          "display": "Axillary tail of breast",
+          "designation": [
+            {
+              "value": "Tail of breast, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C508",
+          "display": "Overlapping lesion of breast",
+          "designation": [
+            {
+              "value": "Inner breast"
+            },
+            {
+              "value": "Lower breast"
+            },
+            {
+              "value": "Midline of breast"
+            },
+            {
+              "value": "Outer breast"
+            },
+            {
+              "value": "Upper breast"
+            }
+          ]
+        },
+        {
+          "code": "C509",
+          "display": "Breast, NOS",
+          "designation": [
+            {
+              "value": "Mammary gland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C51",
+      "display": "VULVA",
+      "concept": [
+        {
+          "code": "C510",
+          "display": "Labium majus",
+          "designation": [
+            {
+              "value": "Bartholin gland"
+            },
+            {
+              "value": "Labia majora, NOS"
+            },
+            {
+              "value": "Skin of labia majora"
+            }
+          ]
+        },
+        {
+          "code": "C511",
+          "display": "Labium minus",
+          "designation": [
+            {
+              "value": "Labia minora"
+            }
+          ]
+        },
+        {
+          "code": "C512",
+          "display": "Clitoris"
+        },
+        {
+          "code": "C518",
+          "display": "Overlapping lesion of vulva"
+        },
+        {
+          "code": "C519",
+          "display": "Vulva, NOS",
+          "designation": [
+            {
+              "value": "External female genitalia"
+            },
+            {
+              "value": "Fourchette"
+            },
+            {
+              "value": "Labia, NOS"
+            },
+            {
+              "value": "Labium, NOS"
+            },
+            {
+              "value": "Mons pubis"
+            },
+            {
+              "value": "Mons veneris"
+            },
+            {
+              "value": "Pudendum"
+            },
+            {
+              "value": "Skin of vulva"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C52",
+      "display": "VAGINA",
+      "concept": [
+        {
+          "code": "C529",
+          "display": "Vagina, NOS",
+          "designation": [
+            {
+              "value": "Fornix of vagina"
+            },
+            {
+              "value": "Gartner duct"
+            },
+            {
+              "value": "Hymen"
+            },
+            {
+              "value": "Vaginal vault"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C53",
+      "display": "CERVIX UTERI",
+      "concept": [
+        {
+          "code": "C530",
+          "display": "Endocervix",
+          "designation": [
+            {
+              "value": "Cervical canal"
+            },
+            {
+              "value": "Endocervical canal"
+            },
+            {
+              "value": "Endocervical gland"
+            },
+            {
+              "value": "Internal os"
+            },
+            {
+              "value": "Nabothian gland"
+            }
+          ]
+        },
+        {
+          "code": "C531",
+          "display": "Exocervix",
+          "designation": [
+            {
+              "value": "External os"
+            }
+          ]
+        },
+        {
+          "code": "C538",
+          "display": "Overlapping lesion of cervix uteri",
+          "designation": [
+            {
+              "value": "Cervical stump"
+            },
+            {
+              "value": "Squamocolumnar junction of cervix"
+            }
+          ]
+        },
+        {
+          "code": "C539",
+          "display": "Cervix uteri",
+          "designation": [
+            {
+              "value": "Cervix, NOS"
+            },
+            {
+              "value": "Uterine cervix"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C54",
+      "display": "CORPUS UTERI",
+      "concept": [
+        {
+          "code": "C540",
+          "display": "Isthmus uteri",
+          "designation": [
+            {
+              "value": "Lower uterine segment"
+            }
+          ]
+        },
+        {
+          "code": "C541",
+          "display": "Endometrium",
+          "designation": [
+            {
+              "value": "Endometrial gland"
+            },
+            {
+              "value": "Endometrial stroma"
+            }
+          ]
+        },
+        {
+          "code": "C542",
+          "display": "Myometrium"
+        },
+        {
+          "code": "C543",
+          "display": "Fundus uteri"
+        },
+        {
+          "code": "C548",
+          "display": "Overlapping lesion of corpus uteri"
+        },
+        {
+          "code": "C549",
+          "display": "Corpus uteri",
+          "designation": [
+            {
+              "value": "Body of uterus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C55",
+      "display": "UTERUS, NOS",
+      "concept": [
+        {
+          "code": "C559",
+          "display": "Uterus, NOS",
+          "designation": [
+            {
+              "value": "Uterine, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C56",
+      "display": "OVARY",
+      "concept": [
+        {
+          "code": "C569",
+          "display": "Ovary"
+        }
+      ]
+    },
+    {
+      "code": "C57",
+      "display": "OTHER AND UNSPECIFIED FEMALE GENITAL ORGANS",
+      "concept": [
+        {
+          "code": "C570",
+          "display": "Fallopian tube",
+          "designation": [
+            {
+              "value": "Uterine tube"
+            }
+          ]
+        },
+        {
+          "code": "C571",
+          "display": "Broad ligament",
+          "designation": [
+            {
+              "value": "Mesovarium"
+            },
+            {
+              "value": "Parovarian region"
+            }
+          ]
+        },
+        {
+          "code": "C572",
+          "display": "Round ligament"
+        },
+        {
+          "code": "C573",
+          "display": "Parametrium",
+          "designation": [
+            {
+              "value": "Uterine ligament"
+            },
+            {
+              "value": "Uterosacral ligament"
+            }
+          ]
+        },
+        {
+          "code": "C574",
+          "display": "Uterine adnexa",
+          "designation": [
+            {
+              "value": "Adnexa, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C577",
+          "display": "Other specified parts of female genital organs",
+          "designation": [
+            {
+              "value": "Wolffian body"
+            },
+            {
+              "value": "Wolffian duct"
+            }
+          ]
+        },
+        {
+          "code": "C578",
+          "display": "Overlapping lesion of female genital organs",
+          "designation": [
+            {
+              "value": "Tubo-ovarian"
+            },
+            {
+              "value": "Utero-ovarian"
+            }
+          ]
+        },
+        {
+          "code": "C579",
+          "display": "Female genital tract, NOS",
+          "designation": [
+            {
+              "value": "Female genital organs, NOS"
+            },
+            {
+              "value": "Female genitourinary tract, NOS"
+            },
+            {
+              "value": "Urethrovaginal septum"
+            },
+            {
+              "value": "Vesicocervical tissue"
+            },
+            {
+              "value": "Vesicovaginal septum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C58",
+      "display": "PLACENTA",
+      "concept": [
+        {
+          "code": "C589",
+          "display": "Placenta",
+          "designation": [
+            {
+              "value": "Fetal membranes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C60",
+      "display": "PENIS",
+      "concept": [
+        {
+          "code": "C600",
+          "display": "Prepuce",
+          "designation": [
+            {
+              "value": "Foreskin"
+            }
+          ]
+        },
+        {
+          "code": "C601",
+          "display": "Glans penis"
+        },
+        {
+          "code": "C602",
+          "display": "Body of penis",
+          "designation": [
+            {
+              "value": "Corpus cavernosum"
+            },
+            {
+              "value": "Corpus of penis"
+            }
+          ]
+        },
+        {
+          "code": "C608",
+          "display": "Overlapping lesion of penis"
+        },
+        {
+          "code": "C609",
+          "display": "Penis, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C61",
+      "display": "PROSTATE GLAND",
+      "concept": [
+        {
+          "code": "C619",
+          "display": "Prostate gland",
+          "designation": [
+            {
+              "value": "Prostate, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C62",
+      "display": "TESTIS",
+      "concept": [
+        {
+          "code": "C620",
+          "display": "Undescended testis",
+          "designation": [
+            {
+              "value": "Ectopic testis (site of neoplasm)"
+            },
+            {
+              "value": "Retained testis (site of neoplasm)"
+            }
+          ]
+        },
+        {
+          "code": "C621",
+          "display": "Descended testis",
+          "designation": [
+            {
+              "value": "Scrotal testis"
+            }
+          ]
+        },
+        {
+          "code": "C629",
+          "display": "Testis, NOS",
+          "designation": [
+            {
+              "value": "Testicle, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C63",
+      "display": "OTHER AND UNSPECIFIED MALE GENITAL ORGANS",
+      "concept": [
+        {
+          "code": "C630",
+          "display": "Epididymis"
+        },
+        {
+          "code": "C631",
+          "display": "Spermatic cord",
+          "designation": [
+            {
+              "value": "Vas deferens"
+            }
+          ]
+        },
+        {
+          "code": "C632",
+          "display": "Scrotum, NOS",
+          "designation": [
+            {
+              "value": "Skin of scrotum"
+            }
+          ]
+        },
+        {
+          "code": "C637",
+          "display": "Other specified parts of male genital organs",
+          "designation": [
+            {
+              "value": "Seminal vesicle"
+            },
+            {
+              "value": "Tunica vaginalis"
+            }
+          ]
+        },
+        {
+          "code": "C638",
+          "display": "Overlapping lesion of male genital organs Note:"
+        },
+        {
+          "code": "C639",
+          "display": "Male genital organs, NOS",
+          "designation": [
+            {
+              "value": "Male genital tract, NOS"
+            },
+            {
+              "value": "Male genitourinary tract, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C64",
+      "display": "KIDNEY",
+      "concept": [
+        {
+          "code": "C649",
+          "display": "Kidney, NOS",
+          "designation": [
+            {
+              "value": "Kidney parenchyma"
+            },
+            {
+              "value": "Renal, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C65",
+      "display": "RENAL PELVIS",
+      "concept": [
+        {
+          "code": "C659",
+          "display": "Renal pelvis",
+          "designation": [
+            {
+              "value": "Pelvis of kidney"
+            },
+            {
+              "value": "Pelviureteric junction"
+            },
+            {
+              "value": "Renal calyces"
+            },
+            {
+              "value": "Renal calyx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C66",
+      "display": "URETER",
+      "concept": [
+        {
+          "code": "C669",
+          "display": "Ureter"
+        }
+      ]
+    },
+    {
+      "code": "C67",
+      "display": "BLADDER",
+      "concept": [
+        {
+          "code": "C670",
+          "display": "Trigone of bladder"
+        },
+        {
+          "code": "C671",
+          "display": "Dome of bladder"
+        },
+        {
+          "code": "C672",
+          "display": "Lateral wall of bladder"
+        },
+        {
+          "code": "C673",
+          "display": "Anterior wall of bladder"
+        },
+        {
+          "code": "C674",
+          "display": "Posterior wall of bladder"
+        },
+        {
+          "code": "C675",
+          "display": "Bladder neck",
+          "designation": [
+            {
+              "value": "Internal urethral orifice"
+            }
+          ]
+        },
+        {
+          "code": "C676",
+          "display": "Ureteric orifice"
+        },
+        {
+          "code": "C677",
+          "display": "Urachus"
+        },
+        {
+          "code": "C678",
+          "display": "Overlapping lesion of bladder"
+        },
+        {
+          "code": "C679",
+          "display": "Bladder, NOS",
+          "designation": [
+            {
+              "value": "Bladder wall, NOS"
+            },
+            {
+              "value": "Urinary bladder, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C68",
+      "display": "OTHER AND UNSPECIFIED URINARY ORGANS",
+      "concept": [
+        {
+          "code": "C680",
+          "display": "Urethra",
+          "designation": [
+            {
+              "value": "Cowper gland"
+            },
+            {
+              "value": "Prostatic utricle"
+            },
+            {
+              "value": "Urethral gland"
+            }
+          ]
+        },
+        {
+          "code": "C681",
+          "display": "Paraurethral gland"
+        },
+        {
+          "code": "C688",
+          "display": "Overlapping lesion of urinary organs"
+        },
+        {
+          "code": "C689",
+          "display": "Urinary system, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C69",
+      "display": "EYE AND ADNEXA",
+      "concept": [
+        {
+          "code": "C690",
+          "display": "Conjunctiva"
+        },
+        {
+          "code": "C691",
+          "display": "Cornea, NOS",
+          "designation": [
+            {
+              "value": "Limbus of cornea"
+            }
+          ]
+        },
+        {
+          "code": "C692",
+          "display": "Retina"
+        },
+        {
+          "code": "C693",
+          "display": "Choroid"
+        },
+        {
+          "code": "C694",
+          "display": "Ciliary body",
+          "designation": [
+            {
+              "value": "Crystalline lens"
+            },
+            {
+              "value": "Eyeball"
+            },
+            {
+              "value": "Intraocular"
+            },
+            {
+              "value": "Iris"
+            },
+            {
+              "value": "Sclera"
+            },
+            {
+              "value": "Uveal tract"
+            }
+          ]
+        },
+        {
+          "code": "C695",
+          "display": "Lacrimal gland",
+          "designation": [
+            {
+              "value": "Lacrimal duct, NOS"
+            },
+            {
+              "value": "Lacrimal sac"
+            },
+            {
+              "value": "Nasal lacrimal duct"
+            },
+            {
+              "value": "Nasolacrimal duct"
+            }
+          ]
+        },
+        {
+          "code": "C696",
+          "display": "Orbit, NOS",
+          "designation": [
+            {
+              "value": "Autonomic nervous system of orbit"
+            },
+            {
+              "value": "Connective tissue of orbit"
+            },
+            {
+              "value": "Extraocular muscle"
+            },
+            {
+              "value": "Peripheral nerves of orbit"
+            },
+            {
+              "value": "Retrobulbar tissue"
+            },
+            {
+              "value": "Soft tissue of orbit"
+            }
+          ]
+        },
+        {
+          "code": "C698",
+          "display": "Overlapping lesion of eye and adnexa"
+        },
+        {
+          "code": "C699",
+          "display": "Eye, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C70",
+      "display": "MENINGES",
+      "concept": [
+        {
+          "code": "C700",
+          "display": "Cerebral meninges",
+          "designation": [
+            {
+              "value": "Cranial dura mater"
+            },
+            {
+              "value": "Cranial meninges"
+            },
+            {
+              "value": "Cranial pia mater"
+            },
+            {
+              "value": "Falx cerebelli"
+            },
+            {
+              "value": "Falx cerebri"
+            },
+            {
+              "value": "Falx, NOS"
+            },
+            {
+              "value": "Intracranial arachnoid"
+            },
+            {
+              "value": "Intracranial meninges"
+            },
+            {
+              "value": "Tentorium cerebelli"
+            },
+            {
+              "value": "Tentorium, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C701",
+          "display": "Spinal meninges",
+          "designation": [
+            {
+              "value": "Spinal arachnoid"
+            },
+            {
+              "value": "Spinal dura mater"
+            },
+            {
+              "value": "Spinal pia mater"
+            }
+          ]
+        },
+        {
+          "code": "C709",
+          "display": "Meninges, NOS",
+          "designation": [
+            {
+              "value": "Arachnoid, NOS"
+            },
+            {
+              "value": "Dura mater, NOS"
+            },
+            {
+              "value": "Dura, NOS"
+            },
+            {
+              "value": "Pia mater, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C71",
+      "display": "BRAIN",
+      "concept": [
+        {
+          "code": "C710",
+          "display": "Cerebrum",
+          "designation": [
+            {
+              "value": "Basal ganglia"
+            },
+            {
+              "value": "Central white matter"
+            },
+            {
+              "value": "Cerebral cortex"
+            },
+            {
+              "value": "Cerebral hemisphere"
+            },
+            {
+              "value": "Cerebral white matter"
+            },
+            {
+              "value": "Corpus striatum"
+            },
+            {
+              "value": "Globus pallidus"
+            },
+            {
+              "value": "Hypothalamus"
+            },
+            {
+              "value": "Insula"
+            },
+            {
+              "value": "Internal capsule"
+            },
+            {
+              "value": "Island of Reil"
+            },
+            {
+              "value": "Operculum"
+            },
+            {
+              "value": "Pallium"
+            },
+            {
+              "value": "Putamen"
+            },
+            {
+              "value": "Rhinencephalon"
+            },
+            {
+              "value": "Supratentorial brain, NOS"
+            },
+            {
+              "value": "Thalamus"
+            }
+          ]
+        },
+        {
+          "code": "C711",
+          "display": "Frontal lobe",
+          "designation": [
+            {
+              "value": "Frontal pole"
+            }
+          ]
+        },
+        {
+          "code": "C712",
+          "display": "Temporal lobe",
+          "designation": [
+            {
+              "value": "Hippocampus"
+            },
+            {
+              "value": "Uncus"
+            }
+          ]
+        },
+        {
+          "code": "C713",
+          "display": "Parietal lobe"
+        },
+        {
+          "code": "C714",
+          "display": "Occipital lobe",
+          "designation": [
+            {
+              "value": "Occipital pole"
+            }
+          ]
+        },
+        {
+          "code": "C715",
+          "display": "Ventricle, NOS",
+          "designation": [
+            {
+              "value": "Cerebral ventricle"
+            },
+            {
+              "value": "Choroid plexus of lateral ventricle"
+            },
+            {
+              "value": "Choroid plexus of third ventricle"
+            },
+            {
+              "value": "Choroid plexus, NOS"
+            },
+            {
+              "value": "Ependyma"
+            },
+            {
+              "value": "Lateral ventricle, NOS"
+            },
+            {
+              "value": "Third ventricle, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C716",
+          "display": "Cerebellum, NOS",
+          "designation": [
+            {
+              "value": "Cerebellopontine angle"
+            },
+            {
+              "value": "Vermis of cerebellum"
+            }
+          ]
+        },
+        {
+          "code": "C717",
+          "display": "Brain stem",
+          "designation": [
+            {
+              "value": "Basis pedunculi"
+            },
+            {
+              "value": "Cerebral peduncle"
+            },
+            {
+              "value": "Choroid plexus of fourth ventricle"
+            },
+            {
+              "value": "Fourth ventricle, NOS"
+            },
+            {
+              "value": "Infratentorial brain, NOS"
+            },
+            {
+              "value": "Medulla oblongata"
+            },
+            {
+              "value": "Midbrain"
+            },
+            {
+              "value": "Olive"
+            },
+            {
+              "value": "Pons"
+            },
+            {
+              "value": "Pyramid"
+            }
+          ]
+        },
+        {
+          "code": "C718",
+          "display": "Overlapping lesion of brain",
+          "designation": [
+            {
+              "value": "Corpus callosum"
+            },
+            {
+              "value": "Tapetum"
+            }
+          ]
+        },
+        {
+          "code": "C719",
+          "display": "Brain, NOS",
+          "designation": [
+            {
+              "value": "Anterior cranial fossa"
+            },
+            {
+              "value": "Cranial fossa, NOS"
+            },
+            {
+              "value": "Intracranial site"
+            },
+            {
+              "value": "Middle cranial fossa"
+            },
+            {
+              "value": "Posterior cranial fossa"
+            },
+            {
+              "value": "Suprasellar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C72",
+      "display": "SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM",
+      "concept": [
+        {
+          "code": "C720",
+          "display": "Spinal cord",
+          "designation": [
+            {
+              "value": "Cervical cord"
+            },
+            {
+              "value": "Conus medullaris"
+            },
+            {
+              "value": "Filum terminale"
+            },
+            {
+              "value": "Lumbar cord"
+            },
+            {
+              "value": "Sacral cord"
+            },
+            {
+              "value": "Thoracic cord"
+            }
+          ]
+        },
+        {
+          "code": "C721",
+          "display": "Cauda equina"
+        },
+        {
+          "code": "C722",
+          "display": "Olfactory nerve"
+        },
+        {
+          "code": "C723",
+          "display": "Optic nerve",
+          "designation": [
+            {
+              "value": "Optic chiasm"
+            },
+            {
+              "value": "Optic tract"
+            }
+          ]
+        },
+        {
+          "code": "C724",
+          "display": "Acoustic nerve"
+        },
+        {
+          "code": "C725",
+          "display": "Cranial nerve, NOS",
+          "designation": [
+            {
+              "value": "Abducens nerve"
+            },
+            {
+              "value": "Accessory nerve, NOS"
+            },
+            {
+              "value": "Facial nerve"
+            },
+            {
+              "value": "Glossopharyngeal nerve"
+            },
+            {
+              "value": "Hypoglossal nerve"
+            },
+            {
+              "value": "Oculomotor nerve"
+            },
+            {
+              "value": "Spinal accessory nerve"
+            },
+            {
+              "value": "Trigeminal nerve"
+            },
+            {
+              "value": "Trochlear nerve"
+            },
+            {
+              "value": "Vagus nerve"
+            }
+          ]
+        },
+        {
+          "code": "C728",
+          "display": "Overlapping lesion of brain and central nervous system"
+        },
+        {
+          "code": "C729",
+          "display": "Nervous system, NOS",
+          "designation": [
+            {
+              "value": "Central nervous system"
+            },
+            {
+              "value": "Epidural"
+            },
+            {
+              "value": "Extradural"
+            },
+            {
+              "value": "Parasellar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C73",
+      "display": "THYROID GLAND",
+      "concept": [
+        {
+          "code": "C739",
+          "display": "Thyroid gland",
+          "designation": [
+            {
+              "value": "Thyroglossal duct"
+            },
+            {
+              "value": "Thyroid, NOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C74",
+      "display": "ADRENAL GLAND",
+      "concept": [
+        {
+          "code": "C740",
+          "display": "Cortex of adrenal gland"
+        },
+        {
+          "code": "C741",
+          "display": "Medulla of adrenal gland"
+        },
+        {
+          "code": "C749",
+          "display": "Adrenal gland, NOS",
+          "designation": [
+            {
+              "value": "Adrenal, NOS"
+            },
+            {
+              "value": "Suprarenal gland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C75",
+      "display": "OTHER ENDOCRINE GLANDS AND RELATED STRUCTURES",
+      "concept": [
+        {
+          "code": "C750",
+          "display": "Parathyroid gland"
+        },
+        {
+          "code": "C751",
+          "display": "Pituitary gland",
+          "designation": [
+            {
+              "value": "Hypophysis"
+            },
+            {
+              "value": "Pituitary fossa"
+            },
+            {
+              "value": "Pituitary, NOS"
+            },
+            {
+              "value": "Rathke pouch"
+            },
+            {
+              "value": "Sella turcica"
+            }
+          ]
+        },
+        {
+          "code": "C752",
+          "display": "Craniopharyngeal duct"
+        },
+        {
+          "code": "C753",
+          "display": "Pineal gland"
+        },
+        {
+          "code": "C754",
+          "display": "Carotid body"
+        },
+        {
+          "code": "C755",
+          "display": "Aortic body and other paraganglia",
+          "designation": [
+            {
+              "value": "Coccygeal body"
+            },
+            {
+              "value": "Coccygeal glomus"
+            },
+            {
+              "value": "Glomus jugulare"
+            },
+            {
+              "value": "Organ of Zuckerkandl"
+            },
+            {
+              "value": "Para-aortic body"
+            },
+            {
+              "value": "Paraganglion"
+            }
+          ]
+        },
+        {
+          "code": "C758",
+          "display": "Overlapping lesion of endocrine glands and related structures",
+          "designation": [
+            {
+              "value": "Multiple endocrine glands"
+            },
+            {
+              "value": "Pluriglandular"
+            }
+          ]
+        },
+        {
+          "code": "C759",
+          "display": "Endocrine gland, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C76",
+      "display": "OTHER AND ILL-DEFINED SITES",
+      "concept": [
+        {
+          "code": "C760",
+          "display": "Head, face or neck, NOS",
+          "designation": [
+            {
+              "value": "Cervical region, NOS"
+            },
+            {
+              "value": "Cheek, NOS"
+            },
+            {
+              "value": "Jaw, NOS"
+            },
+            {
+              "value": "Nose, NOS"
+            },
+            {
+              "value": "Supraclavicular region, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C761",
+          "display": "Thorax, NOS",
+          "designation": [
+            {
+              "value": "Axilla, NOS"
+            },
+            {
+              "value": "Chest wall, NOS"
+            },
+            {
+              "value": "Chest, NOS"
+            },
+            {
+              "value": "Infraclavicular region, NOS"
+            },
+            {
+              "value": "Intrathoracic site, NOS"
+            },
+            {
+              "value": "Scapular region, NOS"
+            },
+            {
+              "value": "Thoracic wall, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C762",
+          "display": "Abdomen, NOS",
+          "designation": [
+            {
+              "value": "Abdominal wall, NOS"
+            },
+            {
+              "value": "Intra-abdominal site, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C763",
+          "display": "Pelvis, NOS",
+          "designation": [
+            {
+              "value": "Buttock, NOS"
+            },
+            {
+              "value": "Gluteal region, NOS"
+            },
+            {
+              "value": "Groin, NOS"
+            },
+            {
+              "value": "Inguinal region, NOS"
+            },
+            {
+              "value": "Ischiorectal fossa"
+            },
+            {
+              "value": "Pelvic wall, NOS"
+            },
+            {
+              "value": "Perineum, NOS"
+            },
+            {
+              "value": "Perirectal region, NOS"
+            },
+            {
+              "value": "Presacral region, NOS"
+            },
+            {
+              "value": "Rectovaginal septum"
+            },
+            {
+              "value": "Rectovesical septum"
+            },
+            {
+              "value": "Sacrococcygeal region, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C764",
+          "display": "Upper limb, NOS",
+          "designation": [
+            {
+              "value": "Antecubital space, NOS"
+            },
+            {
+              "value": "Arm, NOS"
+            },
+            {
+              "value": "Elbow, NOS"
+            },
+            {
+              "value": "Finger, NOS"
+            },
+            {
+              "value": "Forearm, NOS"
+            },
+            {
+              "value": "Hand, NOS"
+            },
+            {
+              "value": "Shoulder, NOS"
+            },
+            {
+              "value": "Thumb, NOS"
+            },
+            {
+              "value": "Wrist, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C765",
+          "display": "Lower limb, NOS",
+          "designation": [
+            {
+              "value": "Ankle, NOS"
+            },
+            {
+              "value": "Calf, NOS"
+            },
+            {
+              "value": "Foot, NOS"
+            },
+            {
+              "value": "Heel, NOS"
+            },
+            {
+              "value": "Hip, NOS"
+            },
+            {
+              "value": "Knee, NOS"
+            },
+            {
+              "value": "Leg, NOS"
+            },
+            {
+              "value": "Popliteal space, NOS"
+            },
+            {
+              "value": "Thigh, NOS"
+            },
+            {
+              "value": "Toe, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C767",
+          "display": "Other ill-defined sites",
+          "designation": [
+            {
+              "value": "Back, NOS"
+            },
+            {
+              "value": "Flank, NOS"
+            },
+            {
+              "value": "Trunk, NOS"
+            }
+          ]
+        },
+        {
+          "code": "C768",
+          "display": "Overlapping lesion of ill-defined sites"
+        }
+      ]
+    },
+    {
+      "code": "C77",
+      "display": "LYMPH NODES",
+      "concept": [
+        {
+          "code": "C770",
+          "display": "Lymph nodes of head, face and neck",
+          "designation": [
+            {
+              "value": "Auricular lymph node"
+            },
+            {
+              "value": "Cervical lymph node"
+            },
+            {
+              "value": "Facial lymph node"
+            },
+            {
+              "value": "Jugular lymph node"
+            },
+            {
+              "value": "Mandibular lymph node"
+            },
+            {
+              "value": "Occipital lymph node"
+            },
+            {
+              "value": "Parotid lymph node"
+            },
+            {
+              "value": "Preauricular lymph node"
+            },
+            {
+              "value": "Prelaryngeal lymph node"
+            },
+            {
+              "value": "Pretracheal lymph node"
+            },
+            {
+              "value": "Retropharyngeal lymph node"
+            },
+            {
+              "value": "Scalene lymph node"
+            },
+            {
+              "value": "Sublingual lymph node"
+            },
+            {
+              "value": "Submandibular lymph node"
+            },
+            {
+              "value": "Submaxillary lymph node"
+            },
+            {
+              "value": "Submental lymph node"
+            },
+            {
+              "value": "Supraclavicular lymph node"
+            }
+          ]
+        },
+        {
+          "code": "C771",
+          "display": "Intrathoracic lymph nodes",
+          "designation": [
+            {
+              "value": "Bronchial lymph node"
+            },
+            {
+              "value": "Bronchopulmonary lymph node"
+            },
+            {
+              "value": "Diaphragmatic lymph node"
+            },
+            {
+              "value": "Esophageal lymph node"
+            },
+            {
+              "value": "Hilar lymph node, NOS"
+            },
+            {
+              "value": "Innominate lymph node"
+            },
+            {
+              "value": "Intercostal lymph node"
+            },
+            {
+              "value": "Mediastinal lymph node"
+            },
+            {
+              "value": "Parasternal lymph node"
+            },
+            {
+              "value": "Pulmonary hilar lymph node"
+            },
+            {
+              "value": "Pulmonary lymph node, NOS"
+            },
+            {
+              "value": "Thoracic lymph node"
+            },
+            {
+              "value": "Tracheal lymph node"
+            },
+            {
+              "value": "Tracheobronchial lymph node"
+            }
+          ]
+        },
+        {
+          "code": "C772",
+          "display": "Intra-abdominal lymph nodes",
+          "designation": [
+            {
+              "value": "Abdominal lymph node"
+            },
+            {
+              "value": "Aortic lymph node"
+            },
+            {
+              "value": "Celiac lymph node"
+            },
+            {
+              "value": "Colic lymph node"
+            },
+            {
+              "value": "Common duct lymph node"
+            },
+            {
+              "value": "Gastric lymph node"
+            },
+            {
+              "value": "Hepatic lymph node"
+            },
+            {
+              "value": "Ileocolic lymph node"
+            },
+            {
+              "value": "Inferior mesenteric lymph node"
+            },
+            {
+              "value": "Intestinal lymph node"
+            },
+            {
+              "value": "Lumbar lymph node"
+            },
+            {
+              "value": "Mesenteric lymph node, NOS"
+            },
+            {
+              "value": "Midcolic lymph node"
+            },
+            {
+              "value": "Pancreatic lymph node, NOS"
+            },
+            {
+              "value": "Para-aortic lymph node"
+            },
+            {
+              "value": "Periaortic lymph node"
+            },
+            {
+              "value": "Peripancreatic lymph node"
+            },
+            {
+              "value": "Porta hepatis lymph node"
+            },
+            {
+              "value": "Portal lymph node"
+            },
+            {
+              "value": "Pyloric lymph node"
+            },
+            {
+              "value": "Retroperitoneal lymph node"
+            },
+            {
+              "value": "Splenic hilar lymph node"
+            },
+            {
+              "value": "Splenic lymph node, NOS"
+            },
+            {
+              "value": "Superior mesenteric lymph node"
+            }
+          ]
+        },
+        {
+          "code": "C773",
+          "display": "Lymph nodes of axilla or arm",
+          "designation": [
+            {
+              "value": "Axillary lymph node"
+            },
+            {
+              "value": "Brachial lymph node"
+            },
+            {
+              "value": "Cubital lymph node"
+            },
+            {
+              "value": "Epitrochlear lymph node"
+            },
+            {
+              "value": "Infraclavicular lymph node"
+            },
+            {
+              "value": "Lymph node of upper limb"
+            },
+            {
+              "value": "Pectoral lymph node"
+            },
+            {
+              "value": "Subclavicular lymph node"
+            },
+            {
+              "value": "Subscapular lymph node"
+            }
+          ]
+        },
+        {
+          "code": "C774",
+          "display": "Lymph nodes of inguinal region or leg",
+          "designation": [
+            {
+              "value": "Femoral lymph node"
+            },
+            {
+              "value": "Inguinal lymph node"
+            },
+            {
+              "value": "Lymph node of Cloquet"
+            },
+            {
+              "value": "Lymph node of groin"
+            },
+            {
+              "value": "Lymph node of lower limb"
+            },
+            {
+              "value": "Lymph node of Rosenmuller"
+            },
+            {
+              "value": "Popliteal lymph node"
+            },
+            {
+              "value": "Subinguinal lymph node"
+            },
+            {
+              "value": "Tibial lymph node"
+            }
+          ]
+        },
+        {
+          "code": "C775",
+          "display": "Pelvic lymph nodes",
+          "designation": [
+            {
+              "value": "Hypogastric lymph node"
+            },
+            {
+              "value": "Iliac lymph node"
+            },
+            {
+              "value": "Inferior epigastric lymph node"
+            },
+            {
+              "value": "Intrapelvic lymph node"
+            },
+            {
+              "value": "Obturator lymph node"
+            },
+            {
+              "value": "Paracervical lymph node"
+            },
+            {
+              "value": "Parametrial lymph node"
+            },
+            {
+              "value": "Presymphysial lymph node"
+            },
+            {
+              "value": "Sacral lymph node"
+            }
+          ]
+        },
+        {
+          "code": "C778",
+          "display": "Lymph nodes of multiple regions"
+        },
+        {
+          "code": "C779",
+          "display": "Lymph node, NOS"
+        }
+      ]
+    },
+    {
+      "code": "C80",
+      "display": "UNKNOWN PRIMARY SITE",
+      "concept": [
+        {
+          "code": "C809",
+          "display": "Unknown primary site"
+        }
+      ]
+    }
+  ]
+}
