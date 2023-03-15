@@ -9,6 +9,12 @@ import java.util.stream.Collectors;
 
 class RefSetRecordConverter {
 
+    private final Boolean dotNotation;
+
+    RefSetRecordConverter(Boolean dotNotation) {
+        this.dotNotation = dotNotation;
+    }
+
     ConceptMap.SourceElementComponent createSourceElement(List<RefSetRecord> records) {
         Set<Integer> multiGroupBlocks = records.stream()
                 .filter(record -> record.getMapGroup() > 1)
@@ -34,6 +40,9 @@ class RefSetRecordConverter {
         StringBuilder result = new StringBuilder(code.length());
         for (char c: code.toCharArray()) {
             if (Character.isDigit(c) || result.length() == 0) {
+                if (this.dotNotation && result.length() == 3) {
+                    result.append('.');
+                }
                 result.append(c);
             }
         }
@@ -42,7 +51,8 @@ class RefSetRecordConverter {
     }
 
     private boolean inScope(RefSetRecord record) {
-        return record.getMapTarget().charAt(0) != '#';
+        String target = record.getMapTarget();
+        return target.length() > 0 && target.charAt(0) != '#';
     }
 
     private ConceptMap.TargetElementComponent createTargetElement(RefSetRecord record) {

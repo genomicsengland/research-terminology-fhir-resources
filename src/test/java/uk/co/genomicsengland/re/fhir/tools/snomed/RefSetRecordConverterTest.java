@@ -21,7 +21,7 @@ class RefSetRecordConverterTest {
         RefSetRecord record2 = new RefSetRecord("1", null, null, null, null,
                 "123456", 2, null, null, null,
                 "Z012", "447561005", null);
-        ConceptMap.SourceElementComponent result = new RefSetRecordConverter().createSourceElement(Arrays.asList(record1, record2));
+        ConceptMap.SourceElementComponent result = new RefSetRecordConverter(false).createSourceElement(Arrays.asList(record1, record2));
         assertNull(result);
     }
 
@@ -40,7 +40,7 @@ class RefSetRecordConverterTest {
                 "123456", 1, null, null, null,
                 "E141", "447561005", 2);
 
-        ConceptMap.SourceElementComponent result = new RefSetRecordConverter().createSourceElement(Arrays.asList(record1, record2, record3, record4));
+        ConceptMap.SourceElementComponent result = new RefSetRecordConverter(false).createSourceElement(Arrays.asList(record1, record2, record3, record4));
         assertEquals("123456", result.getCode());
         List<ConceptMap.TargetElementComponent> targets = result.getTarget();
         assertEquals(2, targets.size());
@@ -60,7 +60,7 @@ class RefSetRecordConverterTest {
         RefSetRecord record2 = new RefSetRecord("1", null, null, null, null,
                 "123456", 0, null, null, null,
                 "D012", "447561005", null);
-        ConceptMap.SourceElementComponent result = new RefSetRecordConverter().createSourceElement(Arrays.asList(record1, record2));
+        ConceptMap.SourceElementComponent result = new RefSetRecordConverter(false).createSourceElement(Arrays.asList(record1, record2));
         assertEquals("123456", result.getCode());
         List<ConceptMap.TargetElementComponent> targets = result.getTarget();
         assertEquals(2, targets.size());
@@ -78,7 +78,7 @@ class RefSetRecordConverterTest {
         RefSetRecord record = new RefSetRecord("1", null, null, null, null,
                 "123456", 0, null, null, null,
                 "G20X", "447561005", null);
-        ConceptMap.SourceElementComponent result = new RefSetRecordConverter().createSourceElement(Collections.singletonList(record));
+        ConceptMap.SourceElementComponent result = new RefSetRecordConverter(false).createSourceElement(Collections.singletonList(record));
         assertEquals("123456", result.getCode());
         List<ConceptMap.TargetElementComponent> targets = result.getTarget();
         ConceptMap.TargetElementComponent target = targets.get(0);
@@ -91,7 +91,7 @@ class RefSetRecordConverterTest {
         RefSetRecord record = new RefSetRecord("1", null, null, null, null,
                 "123456", 0, null, null, null,
                 "M001 A", "447561005", null);
-        ConceptMap.SourceElementComponent result = new RefSetRecordConverter().createSourceElement(Collections.singletonList(record));
+        ConceptMap.SourceElementComponent result = new RefSetRecordConverter(false).createSourceElement(Collections.singletonList(record));
         assertEquals("123456", result.getCode());
         List<ConceptMap.TargetElementComponent> targets = result.getTarget();
         ConceptMap.TargetElementComponent target = targets.get(0);
@@ -107,7 +107,7 @@ class RefSetRecordConverterTest {
         RefSetRecord record2 = new RefSetRecord("1", null, null, null, null,
                 "123456", 0, null, null, null,
                 "M001 A", "447561005", null);
-        ConceptMap.SourceElementComponent result = new RefSetRecordConverter().createSourceElement(Arrays.asList(record1, record2));
+        ConceptMap.SourceElementComponent result = new RefSetRecordConverter(false).createSourceElement(Arrays.asList(record1, record2));
         assertEquals("123456", result.getCode());
         List<ConceptMap.TargetElementComponent> targets = result.getTarget();
         assertEquals(1, targets.size());
@@ -121,11 +121,31 @@ class RefSetRecordConverterTest {
         RefSetRecord record = new RefSetRecord("1", null, null, null, null,
                 "123456", 0, null, null, null,
                 "A123", "447561005", null);
-        ConceptMap.SourceElementComponent result = new RefSetRecordConverter().createSourceElement(Collections.singletonList(record));
+        ConceptMap.SourceElementComponent result = new RefSetRecordConverter(false).createSourceElement(Collections.singletonList(record));
         assertEquals("123456", result.getCode());
         List<ConceptMap.TargetElementComponent> targets = result.getTarget();
         ConceptMap.TargetElementComponent target = targets.get(0);
         assertEquals("A123", target.getCode());
+        assertEquals(Enumerations.ConceptMapEquivalence.RELATEDTO, target.getEquivalence());
+    }
+
+
+    @Test
+    void createSourceElementDotNotationTest() {
+        RefSetRecord record1 = new RefSetRecord("1", null, null, null, null,
+                "123456", 0, null, null, null,
+                "A12", "447561005", null);
+        RefSetRecord record2 = new RefSetRecord("2", null, null, null, null,
+                "123456", 0, null, null, null,
+                "A123", "447561005", null);
+        ConceptMap.SourceElementComponent result = new RefSetRecordConverter(true).createSourceElement(Arrays.asList(record1, record2));
+        assertEquals("123456", result.getCode());
+        List<ConceptMap.TargetElementComponent> targets = result.getTarget();
+        ConceptMap.TargetElementComponent target = targets.get(0);
+        assertEquals("A12", target.getCode());
+        assertEquals(Enumerations.ConceptMapEquivalence.RELATEDTO, target.getEquivalence());
+        target = targets.get(1);
+        assertEquals("A12.3", target.getCode());
         assertEquals(Enumerations.ConceptMapEquivalence.RELATEDTO, target.getEquivalence());
     }
 }
