@@ -3,7 +3,6 @@ package uk.co.genomicsengland.re.fhir.tools.snomed;
 import ca.uhn.fhir.context.FhirContext;
 import org.hl7.fhir.r4.model.ConceptMap;
 
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
@@ -21,27 +20,38 @@ public class SCTUKMap2FHIR {
 
     public static void main(String... args) throws IOException {
 
+        if (args.length != 4) {
+            System.out.println("Invalid number of parameters");
+            System.exit(1);
+        }
+
         /*
          * The input file name (UKMap refset from the SNOMED UK Edition distribution)
+         * E.g.: ./src/main/resources/snomed/der2_iisssciRefset_ExtendedMapUKCLSnapshot_GB1000000_20230215.txt
          */
         String inputFile = args[0];
 
         /*
-         *  ID of the reference set to be converted to FHIR.
+         *  ID of the reference set (refsetId) to be converted to FHIR.
          *
-         *  "999002271000000101"; // ICD-10 5 character
-         *  "999002261000000108"; // ICD-10 character
-         *  "999002741000000101"; // OPCS
+         *  "999002271000000101"; // SNOMED to ICD-10 5th edition five character
+         *  "999002741000000101"; // SNOMED to OPCS 4.8 (retired - not in latest distribution)
+         *  "1126441000000105" // SNOMED to OPCS 4.9
+         *  "1382401000000109" // SNOMED to OPCS 4.10
          */
         String referenceSetId = args[1];
 
         /*
-         * The output file name. Must be a valid FHIR ConceptMap resource (JSON).
-         * The first group element will be overwritten with mappings from the source file.
+         * The output file name.
          */
         String outputFile = args[2];
 
-        ConceptMap map = new SCTUKMap2FHIR().convert(inputFile, referenceSetId, outputFile);
+        /*
+         * Whether to insert a dot between the 3rd and 4th character in the target (true) or not (false)
+         */
+        Boolean dotNotation = Boolean.parseBoolean(args[3]);
+
+        ConceptMap map = new SCTUKMap2FHIR().convert(inputFile, referenceSetId, outputFile, dotNotation);
 
         System.out.println("Writing ConceptMap...");
         Writer writer = new FileWriter(outputFile);
@@ -53,11 +63,11 @@ public class SCTUKMap2FHIR {
     private void writeProgress(AtomicInteger value) {
         int i = value.incrementAndGet();
         if (i % 100000 == 0) {
-            System.out.println(i / 100000);
+            System.out.printf("%s00K%n", i / 100000);
         }
     }
 
-    private ConceptMap convert(String file, String referenceSetId, String outputFile) throws IOException {
+    private ConceptMap convert(String file, String referenceSetId, String outputFile, Boolean dotNotation) throws IOException {
         RefSetParser parser = new RefSetParser();
 
         Path path = Paths.get(file);
@@ -75,12 +85,12 @@ public class SCTUKMap2FHIR {
                     // group by source concept
                     .collect(Collectors.groupingBy(RefSetRecord::getReferencedComponentId));
 
-            ConceptMap map = (ConceptMap)FhirContext.forR4().newJsonParser().parseResource(new FileReader(outputFile));
+            ConceptMap map = new ConceptMap();
             ConceptMap.ConceptMapGroupComponent group = map.getGroupFirstRep();
             group.setElement(null);
 
             System.out.println("Building ConceptMap...");
-            RefSetRecordConverter converter = new RefSetRecordConverter();
+            RefSetRecordConverter converter = new RefSetRecordConverter(dotNotation);
             result.values().stream()
                     .map(converter::createSourceElement)
                     .filter(Objects::nonNull)

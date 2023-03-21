@@ -1,0 +1,657 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "cancer-disease-sub-types",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2019-05-21T09:41:25.318+10:00"
+    },
+    "url": "http://genomicsengland.co.uk/recruited-cancer-disease-sub-types",
+    "version": "2019-02-28",
+    "name": "GEL Recruited Cancer Disease Sub Types",
+    "status": "draft",
+    "publisher": "Genomics England",
+    "valueSet": "http://genomicsengland.co.uk/recruited-cancer-disease-sub-types",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "(All) Acute Lymphoblastic Leukaemia",
+            "display": "(All) Acute Lymphoblastic Leukaemia"
+        },
+        {
+            "code": "(Aml) Acute Myeloid Leukaemia",
+            "display": "(Aml) Acute Myeloid Leukaemia"
+        },
+        {
+            "code": "Acinar Cell Carcinoma",
+            "display": "Acinar Cell Carcinoma"
+        },
+        {
+            "code": "Acral Lentiginous",
+            "display": "Acral Lentiginous"
+        },
+        {
+            "code": "Acute Leukaemia Other",
+            "display": "Acute Leukaemia Other"
+        },
+        {
+            "code": "Adamantinoma Of Bone",
+            "display": "Adamantinoma Of Bone"
+        },
+        {
+            "code": "Adenocarcinoma",
+            "display": "Adenocarcinoma"
+        },
+        {
+            "code": "Alveolar Soft Part Sarcoma",
+            "display": "Alveolar Soft Part Sarcoma"
+        },
+        {
+            "code": "Anaplastic Astrocytoma",
+            "display": "Anaplastic Astrocytoma"
+        },
+        {
+            "code": "Anaplastic Ependymoma",
+            "display": "Anaplastic Ependymoma"
+        },
+        {
+            "code": "Anaplastic Oligoastrocytoma",
+            "display": "Anaplastic Oligoastrocytoma"
+        },
+        {
+            "code": "Anaplastic Oligodendroglioma",
+            "display": "Anaplastic Oligodendroglioma"
+        },
+        {
+            "code": "Angiomatoid Fibrous Histiocytoma",
+            "display": "Angiomatoid Fibrous Histiocytoma"
+        },
+        {
+            "code": "Angiosarcoma",
+            "display": "Angiosarcoma"
+        },
+        {
+            "code": "Anorectal Mucosal Melanoma",
+            "display": "Anorectal Mucosal Melanoma"
+        },
+        {
+            "code": "Atypical Teratoid Rhabdoid Tumours",
+            "display": "Atypical Teratoid Rhabdoid Tumours"
+        },
+        {
+            "code": "Betel Nut-Induced Oral Cancer",
+            "display": "Betel Nut-Induced Oral Cancer"
+        },
+        {
+            "code": "Biliary Adenocarcinoma",
+            "display": "Biliary Adenocarcinoma"
+        },
+        {
+            "code": "Biliary Adenosquamous Carcinoma",
+            "display": "Biliary Adenosquamous Carcinoma"
+        },
+        {
+            "code": "Burkitt Lymphoma",
+            "display": "Burkitt Lymphoma"
+        },
+        {
+            "code": "Carcinosarcoma",
+            "display": "Carcinosarcoma"
+        },
+        {
+            "code": "Childhood Other",
+            "display": "Childhood Other"
+        },
+        {
+            "code": "Cholangiocarcinoma",
+            "display": "Cholangiocarcinoma"
+        },
+        {
+            "code": "Chordoma",
+            "display": "Chordoma"
+        },
+        {
+            "code": "Choriocarcinoma",
+            "display": "Choriocarcinoma"
+        },
+        {
+            "code": "Chromophobe",
+            "display": "Chromophobe"
+        },
+        {
+            "code": "Chronic Lymphocytic Leukaemia",
+            "display": "Chronic Lymphocytic Leukaemia"
+        },
+        {
+            "code": "Chronic Myeloid Leukaemia",
+            "display": "Chronic Myeloid Leukaemia"
+        },
+        {
+            "code": "Classical Hodgkins",
+            "display": "Classical Hodgkins"
+        },
+        {
+            "code": "Classical Seminoma",
+            "display": "Classical Seminoma"
+        },
+        {
+            "code": "Clear Cell Adenocarcinoma",
+            "display": "Clear Cell Adenocarcinoma"
+        },
+        {
+            "code": "Clear Cell Carcinoma",
+            "display": "Clear Cell Carcinoma"
+        },
+        {
+            "code": "Collecting Duct",
+            "display": "Collecting Duct"
+        },
+        {
+            "code": "Combined Hcc-Cholangiocarcinoma",
+            "display": "Combined Hcc-Cholangiocarcinoma"
+        },
+        {
+            "code": "Conjunctival Melanoma",
+            "display": "Conjunctival Melanoma"
+        },
+        {
+            "code": "Conventional Chondrosarcoma",
+            "display": "Conventional Chondrosarcoma"
+        },
+        {
+            "code": "Dedifferentiated Chondrosarcoma",
+            "display": "Dedifferentiated Chondrosarcoma"
+        },
+        {
+            "code": "Dedifferentiated Liposarcoma",
+            "display": "Dedifferentiated Liposarcoma"
+        },
+        {
+            "code": "Dermal Sarcoma",
+            "display": "Dermal Sarcoma"
+        },
+        {
+            "code": "Desmoplastic Melanoma",
+            "display": "Desmoplastic Melanoma"
+        },
+        {
+            "code": "Diffuse Astrocytoma",
+            "display": "Diffuse Astrocytoma"
+        },
+        {
+            "code": "Diffuse Large B-Cell Lymphoma",
+            "display": "Diffuse Large B-Cell Lymphoma"
+        },
+        {
+            "code": "Ductal",
+            "display": "Ductal"
+        },
+        {
+            "code": "Dysgerminomas",
+            "display": "Dysgerminomas"
+        },
+        {
+            "code": "Embryonal Carcinoma",
+            "display": "Embryonal Carcinoma"
+        },
+        {
+            "code": "Endometrioid Carcinoma",
+            "display": "Endometrioid Carcinoma"
+        },
+        {
+            "code": "Ependymoma",
+            "display": "Ependymoma"
+        },
+        {
+            "code": "Epithelioid Angiosarcoma",
+            "display": "Epithelioid Angiosarcoma"
+        },
+        {
+            "code": "Extraskeletal Chondrosarcoma",
+            "display": "Extraskeletal Chondrosarcoma"
+        },
+        {
+            "code": "Extraskeletal Chordoma",
+            "display": "Extraskeletal Chordoma"
+        },
+        {
+            "code": "Extraventricular Neurocytoma",
+            "display": "Extraventricular Neurocytoma"
+        },
+        {
+            "code": "Fibrillary Astrocytoma",
+            "display": "Fibrillary Astrocytoma"
+        },
+        {
+            "code": "Fibrolamellar Hcc",
+            "display": "Fibrolamellar Hcc"
+        },
+        {
+            "code": "Ganglioglioma",
+            "display": "Ganglioglioma"
+        },
+        {
+            "code": "Gastric Adenocarcinoma",
+            "display": "Gastric Adenocarcinoma"
+        },
+        {
+            "code": "Gastric Carcinoma With Lymphoid Stroma",
+            "display": "Gastric Carcinoma With Lymphoid Stroma"
+        },
+        {
+            "code": "Genital Mucosal Melanoma",
+            "display": "Genital Mucosal Melanoma"
+        },
+        {
+            "code": "Germ Cell Tumour",
+            "display": "Germ Cell Tumour"
+        },
+        {
+            "code": "Giant Cell Glioblastoma",
+            "display": "Giant Cell Glioblastoma"
+        },
+        {
+            "code": "Glioblastoma",
+            "display": "Glioblastoma"
+        },
+        {
+            "code": "Gliosarcoma",
+            "display": "Gliosarcoma"
+        },
+        {
+            "code": "Granulosa Cell Tumour",
+            "display": "Granulosa Cell Tumour"
+        },
+        {
+            "code": "Haematological Malignancy Unclassified",
+            "display": "Haematological Malignancy Unclassified"
+        },
+        {
+            "code": "Hcc Trabecular",
+            "display": "Hcc Trabecular"
+        },
+        {
+            "code": "Hepatocellular Carcinoma",
+            "display": "Hepatocellular Carcinoma"
+        },
+        {
+            "code": "High Grade Endometrial Stromal Sarcoma",
+            "display": "High Grade Endometrial Stromal Sarcoma"
+        },
+        {
+            "code": "High Grade Lymphoma Nos",
+            "display": "High Grade Lymphoma Nos"
+        },
+        {
+            "code": "High Grade Serous Carcinoma",
+            "display": "High Grade Serous Carcinoma"
+        },
+        {
+            "code": "Hpv Negative Oropharyngeal Cancer",
+            "display": "Hpv Negative Oropharyngeal Cancer"
+        },
+        {
+            "code": "Hpv Positive Oropharyngeal Cancer",
+            "display": "Hpv Positive Oropharyngeal Cancer"
+        },
+        {
+            "code": "Ipmn With Invasive Carcinoma",
+            "display": "Ipmn With Invasive Carcinoma"
+        },
+        {
+            "code": "Large Cell",
+            "display": "Large Cell"
+        },
+        {
+            "code": "Leiomyosarcoma From All Sites",
+            "display": "Leiomyosarcoma From All Sites"
+        },
+        {
+            "code": "Lentigo Maligna",
+            "display": "Lentigo Maligna"
+        },
+        {
+            "code": "Lobular",
+            "display": "Lobular"
+        },
+        {
+            "code": "Low Grade Endometrial Stromal Sarcoma'",
+            "display": "Low Grade Endometrial Stromal Sarcoma'"
+        },
+        {
+            "code": "Low Grade Fibromyxoid Sarcoma Sclerosing Epithelioid Fibrosarcoma",
+            "display": "Low Grade Fibromyxoid Sarcoma Sclerosing Epithelioid Fibrosarcoma"
+        },
+        {
+            "code": "Low Grade Fibromyxoid Sarcoma",
+            "display": "Low Grade Fibromyxoid Sarcoma"
+        },
+        {
+            "code": "Low Grade Serous Adenocarcinoma",
+            "display": "Low Grade Serous Adenocarcinoma"
+        },
+        {
+            "code": "Malignant Peripheral Nerve Sheath Tumour",
+            "display": "Malignant Peripheral Nerve Sheath Tumour"
+        },
+        {
+            "code": "Medullary",
+            "display": "Medullary"
+        },
+        {
+            "code": "Medulloblastoma (Cla)",
+            "display": "Medulloblastoma (Cla)"
+        },
+        {
+            "code": "Medulloblastoma (Dn)",
+            "display": "Medulloblastoma (Dn)"
+        },
+        {
+            "code": "Medulloblastoma (Lca)",
+            "display": "Medulloblastoma (Lca)"
+        },
+        {
+            "code": "Medulloblastoma (Nos)",
+            "display": "Medulloblastoma (Nos)"
+        },
+        {
+            "code": "Melanoma",
+            "display": "Melanoma"
+        },
+        {
+            "code": "Mesenchymal",
+            "display": "Mesenchymal"
+        },
+        {
+            "code": "Mesothelioma",
+            "display": "Mesothelioma"
+        },
+        {
+            "code": "Mixed Tumour Type",
+            "display": "Mixed Tumour Type"
+        },
+        {
+            "code": "Mucinous Carcinoma",
+            "display": "Mucinous Carcinoma"
+        },
+        {
+            "code": "Multiple Myeloma",
+            "display": "Multiple Myeloma"
+        },
+        {
+            "code": "Myelodysplastic Syndrome (High Risk)",
+            "display": "Myelodysplastic Syndrome (High Risk)"
+        },
+        {
+            "code": "Myleoproliferative Neoplasms",
+            "display": "Myleoproliferative Neoplasms"
+        },
+        {
+            "code": "Myoepithelioma / Malignant Myoepithelioma",
+            "display": "Myoepithelioma / Malignant Myoepithelioma"
+        },
+        {
+            "code": "Myxofibrosarcoma",
+            "display": "Myxofibrosarcoma"
+        },
+        {
+            "code": "Myxoid Liposarcoma Pre Radiotherapy",
+            "display": "Myxoid Liposarcoma Pre Radiotherapy"
+        },
+        {
+            "code": "Myxoid Liposarcoma",
+            "display": "Myxoid Liposarcoma"
+        },
+        {
+            "code": "Myxoinflammatory Fibroblastic Sarcoma Haemsiderotic",
+            "display": "Myxoinflammatory Fibroblastic Sarcoma Haemsiderotic"
+        },
+        {
+            "code": "Myxoinflammatory Fibroblastic Sarcoma",
+            "display": "Myxoinflammatory Fibroblastic Sarcoma"
+        },
+        {
+            "code": "Myxopapillary Ependymoma",
+            "display": "Myxopapillary Ependymoma"
+        },
+        {
+            "code": "Nasopharyngeal Carcinoma Type Ii",
+            "display": "Nasopharyngeal Carcinoma Type Ii"
+        },
+        {
+            "code": "Neuroblastoma (Inpc)",
+            "display": "Neuroblastoma (Inpc)"
+        },
+        {
+            "code": "Neuroblastoma (Nos)",
+            "display": "Neuroblastoma (Nos)"
+        },
+        {
+            "code": "Neuroendocrine Carcinoma",
+            "display": "Neuroendocrine Carcinoma"
+        },
+        {
+            "code": "Neuroendocrine",
+            "display": "Neuroendocrine"
+        },
+        {
+            "code": "Nodular Lymphocyte Predominant Hodgkins",
+            "display": "Nodular Lymphocyte Predominant Hodgkins"
+        },
+        {
+            "code": "Nodular",
+            "display": "Nodular"
+        },
+        {
+            "code": "Non Specified Renal Carcinoma",
+            "display": "Non Specified Renal Carcinoma"
+        },
+        {
+            "code": "Non-Hodgkins B Cell Lymphoma Low / Moderate Grade",
+            "display": "Non-Hodgkins B Cell Lymphoma Low / Moderate Grade"
+        },
+        {
+            "code": "Not Available",
+            "display": "Not Available"
+        },
+        {
+            "code": "Oligoastrocytoma",
+            "display": "Oligoastrocytoma"
+        },
+        {
+            "code": "Oligodendroglioma",
+            "display": "Oligodendroglioma"
+        },
+        {
+            "code": "Oncocytic",
+            "display": "Oncocytic"
+        },
+        {
+            "code": "Oromucosal Melanoma",
+            "display": "Oromucosal Melanoma"
+        },
+        {
+            "code": "Other",
+            "display": "Other"
+        },
+        {
+            "code": "Paediatric Malignant Glioma",
+            "display": "Paediatric Malignant Glioma"
+        },
+        {
+            "code": "Pancreatic Adenocarcinoma",
+            "display": "Pancreatic Adenocarcinoma"
+        },
+        {
+            "code": "Pancreatic Adenosquamous Carcinoma",
+            "display": "Pancreatic Adenosquamous Carcinoma"
+        },
+        {
+            "code": "Pancreatic Neuroendocrine Carcinoma",
+            "display": "Pancreatic Neuroendocrine Carcinoma"
+        },
+        {
+            "code": "Papillary Tumour Of The Pineal Region",
+            "display": "Papillary Tumour Of The Pineal Region"
+        },
+        {
+            "code": "Papillary Type 1",
+            "display": "Papillary Type 1"
+        },
+        {
+            "code": "Papillary Type 2",
+            "display": "Papillary Type 2"
+        },
+        {
+            "code": "Papillary",
+            "display": "Papillary"
+        },
+        {
+            "code": "Pathology Indeterminate – Carcinoma  Nos (Not Otherwise Specified)",
+            "display": "Pathology Indeterminate – Carcinoma  Nos (Not Otherwise Specified)"
+        },
+        {
+            "code": "Phaeochromocytoma",
+            "display": "Phaeochromocytoma"
+        },
+        {
+            "code": "Pilocytic Astrocytoma",
+            "display": "Pilocytic Astrocytoma"
+        },
+        {
+            "code": "Pituitary Carcinoma",
+            "display": "Pituitary Carcinoma"
+        },
+        {
+            "code": "Pleomorphic Sarcoma",
+            "display": "Pleomorphic Sarcoma"
+        },
+        {
+            "code": "Pleomorphic Xanthoastrocytoma",
+            "display": "Pleomorphic Xanthoastrocytoma"
+        },
+        {
+            "code": "Poorly Cohesive Including Signet Ring Cell Type",
+            "display": "Poorly Cohesive Including Signet Ring Cell Type"
+        },
+        {
+            "code": "Primary Conventional Osteosarcoma",
+            "display": "Primary Conventional Osteosarcoma"
+        },
+        {
+            "code": "Rare Sarcoma Entities",
+            "display": "Rare Sarcoma Entities"
+        },
+        {
+            "code": "Rhabdomyosarcoma",
+            "display": "Rhabdomyosarcoma"
+        },
+        {
+            "code": "Sarcoma Nos",
+            "display": "Sarcoma Nos"
+        },
+        {
+            "code": "Sarcomatoid Carcinoma",
+            "display": "Sarcomatoid Carcinoma"
+        },
+        {
+            "code": "Serous Carcinoma",
+            "display": "Serous Carcinoma"
+        },
+        {
+            "code": "Sertoli-Leydig",
+            "display": "Sertoli-Leydig"
+        },
+        {
+            "code": "Small Cell Carcinoma",
+            "display": "Small Cell Carcinoma"
+        },
+        {
+            "code": "Small Cell",
+            "display": "Small Cell"
+        },
+        {
+            "code": "Spermatocytic Seminoma",
+            "display": "Spermatocytic Seminoma"
+        },
+        {
+            "code": "Squamous Cell Carcinoma",
+            "display": "Squamous Cell Carcinoma"
+        },
+        {
+            "code": "Squamous Cell",
+            "display": "Squamous Cell"
+        },
+        {
+            "code": "Stromal Tumour",
+            "display": "Stromal Tumour"
+        },
+        {
+            "code": "Subependymoma",
+            "display": "Subependymoma"
+        },
+        {
+            "code": "Superficial Spreading",
+            "display": "Superficial Spreading"
+        },
+        {
+            "code": "Synovial Sarcoma - Monophasic And Biphasic",
+            "display": "Synovial Sarcoma - Monophasic And Biphasic"
+        },
+        {
+            "code": "T-Cell Lymphoma",
+            "display": "T-Cell Lymphoma"
+        },
+        {
+            "code": "Teratoma (Immature)",
+            "display": "Teratoma (Immature)"
+        },
+        {
+            "code": "Teratoma (Mature)",
+            "display": "Teratoma (Mature)"
+        },
+        {
+            "code": "Teratoma Differentiated",
+            "display": "Teratoma Differentiated"
+        },
+        {
+            "code": "Teratoma Undifferentiated",
+            "display": "Teratoma Undifferentiated"
+        },
+        {
+            "code": "Transitional Cell Carcinoma",
+            "display": "Transitional Cell Carcinoma"
+        },
+        {
+            "code": "Tubular / Cribform",
+            "display": "Tubular / Cribform"
+        },
+        {
+            "code": "Undifferentiated Carcinoma",
+            "display": "Undifferentiated Carcinoma"
+        },
+        {
+            "code": "Undifferentiated Hcc",
+            "display": "Undifferentiated Hcc"
+        },
+        {
+            "code": "Unknown",
+            "display": "Unknown"
+        },
+        {
+            "code": "Urothelial (In Situ)",
+            "display": "Urothelial (In Situ)"
+        },
+        {
+            "code": "Urothelial Carcinoma",
+            "display": "Urothelial Carcinoma"
+        },
+        {
+            "code": "Uveal Melanoma",
+            "display": "Uveal Melanoma"
+        },
+        {
+            "code": "Yolk Sac Tumour",
+            "display": "Yolk Sac Tumour"
+        }
+    ]
+}

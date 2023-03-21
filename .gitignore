@@ -1,3 +1,6 @@
 /.idea/
 /target/
 /research-terminology-fhir-resources.iml
+*.iml
+/.vscode/
+.DS_Store
