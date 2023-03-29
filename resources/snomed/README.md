@@ -36,6 +36,8 @@ Input parameters:
 3. output file name (json)
 4. dot-notation (true/false)
 
+![](img/snomed_map_preparation.jpg)
+
 ## SNOMED to HPO Concept Map
 
 The SNOMED to HPO concept map was created by CSIRO, the Australian e-Health Research Centre, and provided as a FHIR concept map in https://genomics.ontoserver.csiro.au. The map was last updated in 2018 and has not been published externally, as far as we know.
