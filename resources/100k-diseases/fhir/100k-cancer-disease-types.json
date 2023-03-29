@@ -2,8 +2,8 @@
     "resourceType": "CodeSystem",
     "id": "cancer-disease-types",
     "url": "http://genomicsengland.co.uk/recruited-cancer-disease-types",
-    "version": "2019-02-28",
-    "name": "GEL Recruited Cancer Disease Types",
+    "version": "2023-03-29",
+    "name": "100,000 Genomes Project Recruited Cancer Disease Types",
     "status": "draft",
     "publisher": "Genomics England",
     "valueSet": "http://genomicsengland.co.uk/recruited-cancer-disease-types",
@@ -11,95 +11,210 @@
     "concept": [
         {
             "code": "ADULT_GLIOMA",
-            "display": "Adult Glioma"
+            "display": "Adult Glioma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Adult Glioma"
+                }
+            ]
         },
         {
             "code": "BLADDER",
-            "display": "Bladder"
+            "display": "Bladder",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Bladder"
+                }
+            ]
         },
         {
             "code": "BREAST",
-            "display": "Breast"
+            "display": "Breast",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Breast"
+                }
+            ]
         },
         {
             "code": "CARCINOMA_OF_UNKNOWN_PRIMARY",
-            "display": "Carcinoma Of Unknown Primary"
+            "display": "Carcinoma Of Unknown Primary",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Carcinoma Of Unknown Primary"
+                }
+            ]
         },
         {
             "code": "CHILDHOOD",
-            "display": "Childhood"
+            "display": "Childhood",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Childhood"
+                }
+            ]
         },
         {
             "code": "COLORECTAL",
-            "display": "Colorectal"
+            "display": "Colorectal",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Colorectal"
+                }
+            ]
         },
         {
             "code": "ENDOCRINE",
-            "display": "Endocrine"
+            "display": "Endocrine",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Endocrine"
+                }
+            ]
         },
         {
             "code": "ENDOMETRIAL_CARCINOMA",
-            "display": "Endometrial Carcinoma"
+            "display": "Endometrial Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Endometrial Carcinoma"
+                }
+            ]
         },
         {
             "code": "HAEMONC",
-            "display": "Haemonc"
+            "display": "Haemonc",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Haemonc"
+                }
+            ]
         },
         {
             "code": "HEPATOPANCREATOBILIARY",
-            "display": "Hepatopancreatobiliary"
+            "display": "Hepatopancreatobiliary",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Hepatopancreatobiliary"
+                }
+            ]
         },
         {
             "code": "LUNG",
-            "display": "Lung"
+            "display": "Lung",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Lung"
+                }
+            ]
         },
         {
             "code": "MALIGNANT_MELANOMA",
-            "display": "Malignant Melanoma"
+            "display": "Malignant Melanoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Malignant Melanoma"
+                }
+            ]
         },
         {
             "code": "NASOPHARYNGEAL",
-            "display": "Nasopharyngeal"
+            "display": "Nasopharyngeal",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Nasopharyngeal"
+                }
+            ]
         },
         {
             "code": "ORAL_OROPHARYNGEAL",
-            "display": "Oral Oropharyngeal"
+            "display": "Oral Oropharyngeal",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Oral Oropharyngeal"
+                }
+            ]
         },
         {
             "code": "OTHER",
-            "display": "Other"
+            "display": "Other",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Other"
+                }
+            ]
         },
         {
             "code": "OVARIAN",
-            "display": "Ovarian"
+            "display": "Ovarian",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Ovarian"
+                }
+            ]
         },
         {
             "code": "PROSTATE",
-            "display": "Prostate"
+            "display": "Prostate",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Prostate"
+                }
+            ]
         },
         {
             "code": "RENAL",
-            "display": "Renal"
+            "display": "Renal",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Renal"
+                }
+            ]
         },
         {
             "code": "SARCOMA",
-            "display": "Sarcoma"
+            "display": "Sarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Sarcoma"
+                }
+            ]
         },
         {
             "code": "SINONASAL",
-            "display": "Sinonasal"
+            "display": "Sinonasal",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Sinonasal"
+                }
+            ]
         },
         {
             "code": "TESTICULAR_GERM_CELL_TUMOURS",
-            "display": "Testicular Germ Cell Tumours"
+            "display": "Testicular Germ Cell Tumours",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Testicular Germ Cell Tumours"
+                }
+            ]
         },
         {
             "code": "UNKNOWN",
-            "display": "Unknown"
+            "display": "Unknown",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Unknown"
+                }
+            ]
         },
         {
             "code": "UPPER_GASTROINTESTINAL",
-            "display": "Upper Gastrointestinal"
-        }
+            "display": "Upper Gastrointestinal",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Upper Gastrointestinal"
+                }
+            ]
+        },
     ]
 }

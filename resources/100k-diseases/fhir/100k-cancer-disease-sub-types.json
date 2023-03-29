@@ -1,13 +1,9 @@
 {
     "resourceType": "CodeSystem",
     "id": "cancer-disease-sub-types",
-    "meta": {
-        "versionId": "1",
-        "lastUpdated": "2019-05-21T09:41:25.318+10:00"
-    },
     "url": "http://genomicsengland.co.uk/recruited-cancer-disease-sub-types",
-    "version": "2019-02-28",
-    "name": "GEL Recruited Cancer Disease Sub Types",
+    "version": "2023-03-29",
+    "name": "100,000 Genomes Project Recruited Cancer Disease Sub Types",
     "status": "draft",
     "publisher": "Genomics England",
     "valueSet": "http://genomicsengland.co.uk/recruited-cancer-disease-sub-types",
@@ -15,643 +11,1398 @@
     "concept": [
         {
             "code": "(All) Acute Lymphoblastic Leukaemia",
-            "display": "(All) Acute Lymphoblastic Leukaemia"
+            "display": "(All) Acute Lymphoblastic Leukaemia",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: (All) Acute Lymphoblastic Leukaemia"
+                }
+            ]
         },
         {
             "code": "(Aml) Acute Myeloid Leukaemia",
-            "display": "(Aml) Acute Myeloid Leukaemia"
+            "display": "(Aml) Acute Myeloid Leukaemia",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: (Aml) Acute Myeloid Leukaemia"
+                }
+            ]
         },
         {
             "code": "Acinar Cell Carcinoma",
-            "display": "Acinar Cell Carcinoma"
+            "display": "Acinar Cell Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Acinar Cell Carcinoma"
+                }
+            ]
         },
         {
             "code": "Acral Lentiginous",
-            "display": "Acral Lentiginous"
+            "display": "Acral Lentiginous",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Acral Lentiginous"
+                }
+            ]
         },
         {
             "code": "Acute Leukaemia Other",
-            "display": "Acute Leukaemia Other"
+            "display": "Acute Leukaemia Other",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Acute Leukaemia Other"
+                }
+            ]
         },
         {
             "code": "Adamantinoma Of Bone",
-            "display": "Adamantinoma Of Bone"
+            "display": "Adamantinoma Of Bone",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Adamantinoma Of Bone"
+                }
+            ]
         },
         {
             "code": "Adenocarcinoma",
-            "display": "Adenocarcinoma"
+            "display": "Adenocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Adenocarcinoma"
+                }
+            ]
+        },
+        {
+            "code": "Adenoid Cystic Carcinoma",
+            "display": "Adenoid Cystic Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Adenoid Cystic Carcinoma"
+                }
+            ]
         },
         {
             "code": "Alveolar Soft Part Sarcoma",
-            "display": "Alveolar Soft Part Sarcoma"
+            "display": "Alveolar Soft Part Sarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Alveolar Soft Part Sarcoma"
+                }
+            ]
         },
         {
             "code": "Anaplastic Astrocytoma",
-            "display": "Anaplastic Astrocytoma"
+            "display": "Anaplastic Astrocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Anaplastic Astrocytoma"
+                }
+            ]
         },
         {
             "code": "Anaplastic Ependymoma",
-            "display": "Anaplastic Ependymoma"
+            "display": "Anaplastic Ependymoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Anaplastic Ependymoma"
+                }
+            ]
         },
         {
             "code": "Anaplastic Oligoastrocytoma",
-            "display": "Anaplastic Oligoastrocytoma"
+            "display": "Anaplastic Oligoastrocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Anaplastic Oligoastrocytoma"
+                }
+            ]
         },
         {
             "code": "Anaplastic Oligodendroglioma",
-            "display": "Anaplastic Oligodendroglioma"
+            "display": "Anaplastic Oligodendroglioma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Anaplastic Oligodendroglioma"
+                }
+            ]
         },
         {
             "code": "Angiomatoid Fibrous Histiocytoma",
-            "display": "Angiomatoid Fibrous Histiocytoma"
+            "display": "Angiomatoid Fibrous Histiocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Angiomatoid Fibrous Histiocytoma"
+                }
+            ]
         },
         {
             "code": "Angiosarcoma",
-            "display": "Angiosarcoma"
+            "display": "Angiosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Angiosarcoma"
+                }
+            ]
         },
         {
             "code": "Anorectal Mucosal Melanoma",
-            "display": "Anorectal Mucosal Melanoma"
+            "display": "Anorectal Mucosal Melanoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Anorectal Mucosal Melanoma"
+                }
+            ]
         },
         {
             "code": "Atypical Teratoid Rhabdoid Tumours",
-            "display": "Atypical Teratoid Rhabdoid Tumours"
-        },
-        {
-            "code": "Betel Nut-Induced Oral Cancer",
-            "display": "Betel Nut-Induced Oral Cancer"
+            "display": "Atypical Teratoid Rhabdoid Tumours",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Atypical Teratoid Rhabdoid Tumours"
+                }
+            ]
         },
         {
             "code": "Biliary Adenocarcinoma",
-            "display": "Biliary Adenocarcinoma"
+            "display": "Biliary Adenocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Biliary Adenocarcinoma"
+                }
+            ]
         },
         {
             "code": "Biliary Adenosquamous Carcinoma",
-            "display": "Biliary Adenosquamous Carcinoma"
+            "display": "Biliary Adenosquamous Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Biliary Adenosquamous Carcinoma"
+                }
+            ]
         },
         {
             "code": "Burkitt Lymphoma",
-            "display": "Burkitt Lymphoma"
+            "display": "Burkitt Lymphoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Burkitt Lymphoma"
+                }
+            ]
         },
         {
             "code": "Carcinosarcoma",
-            "display": "Carcinosarcoma"
+            "display": "Carcinosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Carcinosarcoma"
+                }
+            ]
         },
         {
             "code": "Childhood Other",
-            "display": "Childhood Other"
+            "display": "Childhood Other",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Childhood Other"
+                }
+            ]
         },
         {
             "code": "Cholangiocarcinoma",
-            "display": "Cholangiocarcinoma"
+            "display": "Cholangiocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Cholangiocarcinoma"
+                }
+            ]
         },
         {
             "code": "Chordoma",
-            "display": "Chordoma"
+            "display": "Chordoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Chordoma"
+                }
+            ]
         },
         {
             "code": "Choriocarcinoma",
-            "display": "Choriocarcinoma"
+            "display": "Choriocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Choriocarcinoma"
+                }
+            ]
         },
         {
             "code": "Chromophobe",
-            "display": "Chromophobe"
+            "display": "Chromophobe",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Chromophobe"
+                }
+            ]
         },
         {
             "code": "Chronic Lymphocytic Leukaemia",
-            "display": "Chronic Lymphocytic Leukaemia"
+            "display": "Chronic Lymphocytic Leukaemia",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Chronic Lymphocytic Leukaemia"
+                }
+            ]
         },
         {
             "code": "Chronic Myeloid Leukaemia",
-            "display": "Chronic Myeloid Leukaemia"
+            "display": "Chronic Myeloid Leukaemia",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Chronic Myeloid Leukaemia"
+                }
+            ]
         },
         {
             "code": "Classical Hodgkins",
-            "display": "Classical Hodgkins"
+            "display": "Classical Hodgkins",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Classical Hodgkins"
+                }
+            ]
         },
         {
             "code": "Classical Seminoma",
-            "display": "Classical Seminoma"
+            "display": "Classical Seminoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Classical Seminoma"
+                }
+            ]
         },
         {
             "code": "Clear Cell Adenocarcinoma",
-            "display": "Clear Cell Adenocarcinoma"
+            "display": "Clear Cell Adenocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Clear Cell Adenocarcinoma"
+                }
+            ]
         },
         {
             "code": "Clear Cell Carcinoma",
-            "display": "Clear Cell Carcinoma"
+            "display": "Clear Cell Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Clear Cell Carcinoma"
+                }
+            ]
+        },
+        {
+            "code": "Cns Primitive Neuroectodermal Tumors",
+            "display": "Cns Primitive Neuroectodermal Tumors",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Cns Primitive Neuroectodermal Tumors"
+                }
+            ]
         },
         {
             "code": "Collecting Duct",
-            "display": "Collecting Duct"
+            "display": "Collecting Duct",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Collecting Duct"
+                }
+            ]
         },
         {
             "code": "Combined Hcc-Cholangiocarcinoma",
-            "display": "Combined Hcc-Cholangiocarcinoma"
+            "display": "Combined Hcc-Cholangiocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Combined Hcc-Cholangiocarcinoma"
+                }
+            ]
         },
         {
             "code": "Conjunctival Melanoma",
-            "display": "Conjunctival Melanoma"
+            "display": "Conjunctival Melanoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Conjunctival Melanoma"
+                }
+            ]
         },
         {
             "code": "Conventional Chondrosarcoma",
-            "display": "Conventional Chondrosarcoma"
+            "display": "Conventional Chondrosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Conventional Chondrosarcoma"
+                }
+            ]
         },
         {
             "code": "Dedifferentiated Chondrosarcoma",
-            "display": "Dedifferentiated Chondrosarcoma"
+            "display": "Dedifferentiated Chondrosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Dedifferentiated Chondrosarcoma"
+                }
+            ]
         },
         {
             "code": "Dedifferentiated Liposarcoma",
-            "display": "Dedifferentiated Liposarcoma"
+            "display": "Dedifferentiated Liposarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Dedifferentiated Liposarcoma"
+                }
+            ]
         },
         {
             "code": "Dermal Sarcoma",
-            "display": "Dermal Sarcoma"
+            "display": "Dermal Sarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Dermal Sarcoma"
+                }
+            ]
         },
         {
             "code": "Desmoplastic Melanoma",
-            "display": "Desmoplastic Melanoma"
+            "display": "Desmoplastic Melanoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Desmoplastic Melanoma"
+                }
+            ]
         },
         {
             "code": "Diffuse Astrocytoma",
-            "display": "Diffuse Astrocytoma"
+            "display": "Diffuse Astrocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Diffuse Astrocytoma"
+                }
+            ]
         },
         {
             "code": "Diffuse Large B-Cell Lymphoma",
-            "display": "Diffuse Large B-Cell Lymphoma"
+            "display": "Diffuse Large B-Cell Lymphoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Diffuse Large B-Cell Lymphoma"
+                }
+            ]
         },
         {
             "code": "Ductal",
-            "display": "Ductal"
+            "display": "Ductal",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Ductal"
+                }
+            ]
         },
         {
             "code": "Dysgerminomas",
-            "display": "Dysgerminomas"
+            "display": "Dysgerminomas",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Dysgerminomas"
+                }
+            ]
         },
         {
             "code": "Embryonal Carcinoma",
-            "display": "Embryonal Carcinoma"
+            "display": "Embryonal Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Embryonal Carcinoma"
+                }
+            ]
         },
         {
             "code": "Endometrioid Carcinoma",
-            "display": "Endometrioid Carcinoma"
+            "display": "Endometrioid Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Endometrioid Carcinoma"
+                }
+            ]
         },
         {
             "code": "Ependymoma",
-            "display": "Ependymoma"
+            "display": "Ependymoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Ependymoma"
+                }
+            ]
         },
         {
             "code": "Epithelioid Angiosarcoma",
-            "display": "Epithelioid Angiosarcoma"
+            "display": "Epithelioid Angiosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Epithelioid Angiosarcoma"
+                }
+            ]
         },
         {
             "code": "Extraskeletal Chondrosarcoma",
-            "display": "Extraskeletal Chondrosarcoma"
-        },
-        {
-            "code": "Extraskeletal Chordoma",
-            "display": "Extraskeletal Chordoma"
+            "display": "Extraskeletal Chondrosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Extraskeletal Chondrosarcoma"
+                }
+            ]
         },
         {
             "code": "Extraventricular Neurocytoma",
-            "display": "Extraventricular Neurocytoma"
+            "display": "Extraventricular Neurocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Extraventricular Neurocytoma"
+                }
+            ]
         },
         {
             "code": "Fibrillary Astrocytoma",
-            "display": "Fibrillary Astrocytoma"
+            "display": "Fibrillary Astrocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Fibrillary Astrocytoma"
+                }
+            ]
         },
         {
             "code": "Fibrolamellar Hcc",
-            "display": "Fibrolamellar Hcc"
+            "display": "Fibrolamellar Hcc",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Fibrolamellar Hcc"
+                }
+            ]
         },
         {
             "code": "Ganglioglioma",
-            "display": "Ganglioglioma"
+            "display": "Ganglioglioma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Ganglioglioma"
+                }
+            ]
         },
         {
             "code": "Gastric Adenocarcinoma",
-            "display": "Gastric Adenocarcinoma"
+            "display": "Gastric Adenocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Gastric Adenocarcinoma"
+                }
+            ]
         },
         {
             "code": "Gastric Carcinoma With Lymphoid Stroma",
-            "display": "Gastric Carcinoma With Lymphoid Stroma"
+            "display": "Gastric Carcinoma With Lymphoid Stroma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Gastric Carcinoma With Lymphoid Stroma"
+                }
+            ]
         },
         {
             "code": "Genital Mucosal Melanoma",
-            "display": "Genital Mucosal Melanoma"
+            "display": "Genital Mucosal Melanoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Genital Mucosal Melanoma"
+                }
+            ]
         },
         {
             "code": "Germ Cell Tumour",
-            "display": "Germ Cell Tumour"
+            "display": "Germ Cell Tumour",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Germ Cell Tumour"
+                }
+            ]
         },
         {
             "code": "Giant Cell Glioblastoma",
-            "display": "Giant Cell Glioblastoma"
+            "display": "Giant Cell Glioblastoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Giant Cell Glioblastoma"
+                }
+            ]
         },
         {
             "code": "Glioblastoma",
-            "display": "Glioblastoma"
+            "display": "Glioblastoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Glioblastoma"
+                }
+            ]
         },
         {
             "code": "Gliosarcoma",
-            "display": "Gliosarcoma"
+            "display": "Gliosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Gliosarcoma"
+                }
+            ]
         },
         {
             "code": "Granulosa Cell Tumour",
-            "display": "Granulosa Cell Tumour"
+            "display": "Granulosa Cell Tumour",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Granulosa Cell Tumour"
+                }
+            ]
         },
         {
             "code": "Haematological Malignancy Unclassified",
-            "display": "Haematological Malignancy Unclassified"
+            "display": "Haematological Malignancy Unclassified",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Haematological Malignancy Unclassified"
+                }
+            ]
         },
         {
             "code": "Hcc Trabecular",
-            "display": "Hcc Trabecular"
+            "display": "Hcc Trabecular",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Hcc Trabecular"
+                }
+            ]
         },
         {
             "code": "Hepatocellular Carcinoma",
-            "display": "Hepatocellular Carcinoma"
+            "display": "Hepatocellular Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Hepatocellular Carcinoma"
+                }
+            ]
         },
         {
             "code": "High Grade Endometrial Stromal Sarcoma",
-            "display": "High Grade Endometrial Stromal Sarcoma"
+            "display": "High Grade Endometrial Stromal Sarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: High Grade Endometrial Stromal Sarcoma"
+                }
+            ]
         },
         {
             "code": "High Grade Lymphoma Nos",
-            "display": "High Grade Lymphoma Nos"
+            "display": "High Grade Lymphoma Nos",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: High Grade Lymphoma Nos"
+                }
+            ]
         },
         {
             "code": "High Grade Serous Carcinoma",
-            "display": "High Grade Serous Carcinoma"
+            "display": "High Grade Serous Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: High Grade Serous Carcinoma"
+                }
+            ]
         },
         {
             "code": "Hpv Negative Oropharyngeal Cancer",
-            "display": "Hpv Negative Oropharyngeal Cancer"
+            "display": "Hpv Negative Oropharyngeal Cancer",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Hpv Negative Oropharyngeal Cancer"
+                }
+            ]
         },
         {
             "code": "Hpv Positive Oropharyngeal Cancer",
-            "display": "Hpv Positive Oropharyngeal Cancer"
+            "display": "Hpv Positive Oropharyngeal Cancer",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Hpv Positive Oropharyngeal Cancer"
+                }
+            ]
         },
         {
             "code": "Ipmn With Invasive Carcinoma",
-            "display": "Ipmn With Invasive Carcinoma"
+            "display": "Ipmn With Invasive Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Ipmn With Invasive Carcinoma"
+                }
+            ]
         },
         {
             "code": "Large Cell",
-            "display": "Large Cell"
+            "display": "Large Cell",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Large Cell"
+                }
+            ]
         },
         {
             "code": "Leiomyosarcoma From All Sites",
-            "display": "Leiomyosarcoma From All Sites"
+            "display": "Leiomyosarcoma From All Sites",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Leiomyosarcoma From All Sites"
+                }
+            ]
         },
         {
             "code": "Lentigo Maligna",
-            "display": "Lentigo Maligna"
+            "display": "Lentigo Maligna",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Lentigo Maligna"
+                }
+            ]
         },
         {
             "code": "Lobular",
-            "display": "Lobular"
+            "display": "Lobular",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Lobular"
+                }
+            ]
         },
         {
             "code": "Low Grade Endometrial Stromal Sarcoma'",
-            "display": "Low Grade Endometrial Stromal Sarcoma'"
+            "display": "Low Grade Endometrial Stromal Sarcoma'",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Low Grade Endometrial Stromal Sarcoma'"
+                }
+            ]
         },
         {
             "code": "Low Grade Fibromyxoid Sarcoma Sclerosing Epithelioid Fibrosarcoma",
-            "display": "Low Grade Fibromyxoid Sarcoma Sclerosing Epithelioid Fibrosarcoma"
+            "display": "Low Grade Fibromyxoid Sarcoma Sclerosing Epithelioid Fibrosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Low Grade Fibromyxoid Sarcoma Sclerosing Epithelioid Fibrosarcoma"
+                }
+            ]
         },
         {
             "code": "Low Grade Fibromyxoid Sarcoma",
-            "display": "Low Grade Fibromyxoid Sarcoma"
+            "display": "Low Grade Fibromyxoid Sarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Low Grade Fibromyxoid Sarcoma"
+                }
+            ]
         },
         {
             "code": "Low Grade Serous Adenocarcinoma",
-            "display": "Low Grade Serous Adenocarcinoma"
+            "display": "Low Grade Serous Adenocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Low Grade Serous Adenocarcinoma"
+                }
+            ]
         },
         {
             "code": "Malignant Peripheral Nerve Sheath Tumour",
-            "display": "Malignant Peripheral Nerve Sheath Tumour"
+            "display": "Malignant Peripheral Nerve Sheath Tumour",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Malignant Peripheral Nerve Sheath Tumour"
+                }
+            ]
         },
         {
             "code": "Medullary",
-            "display": "Medullary"
+            "display": "Medullary",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Medullary"
+                }
+            ]
         },
         {
             "code": "Medulloblastoma (Cla)",
-            "display": "Medulloblastoma (Cla)"
+            "display": "Medulloblastoma (Cla)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Medulloblastoma (Cla)"
+                }
+            ]
         },
         {
             "code": "Medulloblastoma (Dn)",
-            "display": "Medulloblastoma (Dn)"
+            "display": "Medulloblastoma (Dn)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Medulloblastoma (Dn)"
+                }
+            ]
         },
         {
             "code": "Medulloblastoma (Lca)",
-            "display": "Medulloblastoma (Lca)"
+            "display": "Medulloblastoma (Lca)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Medulloblastoma (Lca)"
+                }
+            ]
+        },
+        {
+            "code": "Medulloblastoma (Melanotic)",
+            "display": "Medulloblastoma (Melanotic)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Medulloblastoma (Melanotic)"
+                }
+            ]
         },
         {
             "code": "Medulloblastoma (Nos)",
-            "display": "Medulloblastoma (Nos)"
+            "display": "Medulloblastoma (Nos)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Medulloblastoma (Nos)"
+                }
+            ]
         },
         {
             "code": "Melanoma",
-            "display": "Melanoma"
-        },
-        {
-            "code": "Mesenchymal",
-            "display": "Mesenchymal"
+            "display": "Melanoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Melanoma"
+                }
+            ]
         },
         {
             "code": "Mesothelioma",
-            "display": "Mesothelioma"
+            "display": "Mesothelioma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Mesothelioma"
+                }
+            ]
         },
         {
             "code": "Mixed Tumour Type",
-            "display": "Mixed Tumour Type"
+            "display": "Mixed Tumour Type",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Mixed Tumour Type"
+                }
+            ]
         },
         {
             "code": "Mucinous Carcinoma",
-            "display": "Mucinous Carcinoma"
+            "display": "Mucinous Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Mucinous Carcinoma"
+                }
+            ]
         },
         {
             "code": "Multiple Myeloma",
-            "display": "Multiple Myeloma"
+            "display": "Multiple Myeloma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Multiple Myeloma"
+                }
+            ]
         },
         {
             "code": "Myelodysplastic Syndrome (High Risk)",
-            "display": "Myelodysplastic Syndrome (High Risk)"
+            "display": "Myelodysplastic Syndrome (High Risk)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Myelodysplastic Syndrome (High Risk)"
+                }
+            ]
         },
         {
             "code": "Myleoproliferative Neoplasms",
-            "display": "Myleoproliferative Neoplasms"
+            "display": "Myleoproliferative Neoplasms",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Myleoproliferative Neoplasms"
+                }
+            ]
         },
         {
             "code": "Myoepithelioma / Malignant Myoepithelioma",
-            "display": "Myoepithelioma / Malignant Myoepithelioma"
+            "display": "Myoepithelioma / Malignant Myoepithelioma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Myoepithelioma / Malignant Myoepithelioma"
+                }
+            ]
         },
         {
             "code": "Myxofibrosarcoma",
-            "display": "Myxofibrosarcoma"
+            "display": "Myxofibrosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Myxofibrosarcoma"
+                }
+            ]
         },
         {
             "code": "Myxoid Liposarcoma Pre Radiotherapy",
-            "display": "Myxoid Liposarcoma Pre Radiotherapy"
+            "display": "Myxoid Liposarcoma Pre Radiotherapy",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Myxoid Liposarcoma Pre Radiotherapy"
+                }
+            ]
         },
         {
             "code": "Myxoid Liposarcoma",
-            "display": "Myxoid Liposarcoma"
-        },
-        {
-            "code": "Myxoinflammatory Fibroblastic Sarcoma Haemsiderotic",
-            "display": "Myxoinflammatory Fibroblastic Sarcoma Haemsiderotic"
+            "display": "Myxoid Liposarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Myxoid Liposarcoma"
+                }
+            ]
         },
         {
             "code": "Myxoinflammatory Fibroblastic Sarcoma",
-            "display": "Myxoinflammatory Fibroblastic Sarcoma"
-        },
-        {
-            "code": "Myxopapillary Ependymoma",
-            "display": "Myxopapillary Ependymoma"
+            "display": "Myxoinflammatory Fibroblastic Sarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Myxoinflammatory Fibroblastic Sarcoma"
+                }
+            ]
         },
         {
             "code": "Nasopharyngeal Carcinoma Type Ii",
-            "display": "Nasopharyngeal Carcinoma Type Ii"
+            "display": "Nasopharyngeal Carcinoma Type Ii",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Nasopharyngeal Carcinoma Type Ii"
+                }
+            ]
         },
         {
             "code": "Neuroblastoma (Inpc)",
-            "display": "Neuroblastoma (Inpc)"
+            "display": "Neuroblastoma (Inpc)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Neuroblastoma (Inpc)"
+                }
+            ]
         },
         {
             "code": "Neuroblastoma (Nos)",
-            "display": "Neuroblastoma (Nos)"
+            "display": "Neuroblastoma (Nos)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Neuroblastoma (Nos)"
+                }
+            ]
         },
         {
             "code": "Neuroendocrine Carcinoma",
-            "display": "Neuroendocrine Carcinoma"
+            "display": "Neuroendocrine Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Neuroendocrine Carcinoma"
+                }
+            ]
         },
         {
             "code": "Neuroendocrine",
-            "display": "Neuroendocrine"
+            "display": "Neuroendocrine",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Neuroendocrine"
+                }
+            ]
         },
         {
             "code": "Nodular Lymphocyte Predominant Hodgkins",
-            "display": "Nodular Lymphocyte Predominant Hodgkins"
+            "display": "Nodular Lymphocyte Predominant Hodgkins",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Nodular Lymphocyte Predominant Hodgkins"
+                }
+            ]
         },
         {
             "code": "Nodular",
-            "display": "Nodular"
+            "display": "Nodular",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Nodular"
+                }
+            ]
         },
         {
             "code": "Non Specified Renal Carcinoma",
-            "display": "Non Specified Renal Carcinoma"
+            "display": "Non Specified Renal Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Non Specified Renal Carcinoma"
+                }
+            ]
         },
         {
             "code": "Non-Hodgkins B Cell Lymphoma Low / Moderate Grade",
-            "display": "Non-Hodgkins B Cell Lymphoma Low / Moderate Grade"
+            "display": "Non-Hodgkins B Cell Lymphoma Low / Moderate Grade",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Non-Hodgkins B Cell Lymphoma Low / Moderate Grade"
+                }
+            ]
         },
         {
             "code": "Not Available",
-            "display": "Not Available"
+            "display": "Not Available",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Not Available"
+                }
+            ]
         },
         {
             "code": "Oligoastrocytoma",
-            "display": "Oligoastrocytoma"
+            "display": "Oligoastrocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Oligoastrocytoma"
+                }
+            ]
         },
         {
             "code": "Oligodendroglioma",
-            "display": "Oligodendroglioma"
+            "display": "Oligodendroglioma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Oligodendroglioma"
+                }
+            ]
         },
         {
             "code": "Oncocytic",
-            "display": "Oncocytic"
+            "display": "Oncocytic",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Oncocytic"
+                }
+            ]
         },
         {
             "code": "Oromucosal Melanoma",
-            "display": "Oromucosal Melanoma"
+            "display": "Oromucosal Melanoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Oromucosal Melanoma"
+                }
+            ]
+        },
+        {
+            "code": "Ossifying Fibromyxoid Tumour",
+            "display": "Ossifying Fibromyxoid Tumour",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Ossifying Fibromyxoid Tumour"
+                }
+            ]
         },
         {
             "code": "Other",
-            "display": "Other"
+            "display": "Other",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Other"
+                }
+            ]
         },
         {
             "code": "Paediatric Malignant Glioma",
-            "display": "Paediatric Malignant Glioma"
+            "display": "Paediatric Malignant Glioma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Paediatric Malignant Glioma"
+                }
+            ]
         },
         {
             "code": "Pancreatic Adenocarcinoma",
-            "display": "Pancreatic Adenocarcinoma"
+            "display": "Pancreatic Adenocarcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Pancreatic Adenocarcinoma"
+                }
+            ]
         },
         {
             "code": "Pancreatic Adenosquamous Carcinoma",
-            "display": "Pancreatic Adenosquamous Carcinoma"
+            "display": "Pancreatic Adenosquamous Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Pancreatic Adenosquamous Carcinoma"
+                }
+            ]
         },
         {
             "code": "Pancreatic Neuroendocrine Carcinoma",
-            "display": "Pancreatic Neuroendocrine Carcinoma"
+            "display": "Pancreatic Neuroendocrine Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Pancreatic Neuroendocrine Carcinoma"
+                }
+            ]
         },
         {
             "code": "Papillary Tumour Of The Pineal Region",
-            "display": "Papillary Tumour Of The Pineal Region"
+            "display": "Papillary Tumour Of The Pineal Region",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Papillary Tumour Of The Pineal Region"
+                }
+            ]
         },
         {
             "code": "Papillary Type 1",
-            "display": "Papillary Type 1"
+            "display": "Papillary Type 1",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Papillary Type 1"
+                }
+            ]
         },
         {
             "code": "Papillary Type 2",
-            "display": "Papillary Type 2"
+            "display": "Papillary Type 2",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Papillary Type 2"
+                }
+            ]
         },
         {
             "code": "Papillary",
-            "display": "Papillary"
+            "display": "Papillary",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Papillary"
+                }
+            ]
         },
         {
             "code": "Pathology Indeterminate – Carcinoma  Nos (Not Otherwise Specified)",
-            "display": "Pathology Indeterminate – Carcinoma  Nos (Not Otherwise Specified)"
+            "display": "Pathology Indeterminate – Carcinoma  Nos (Not Otherwise Specified)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Pathology Indeterminate – Carcinoma  Nos (Not Otherwise Specified)"
+                }
+            ]
         },
         {
             "code": "Phaeochromocytoma",
-            "display": "Phaeochromocytoma"
+            "display": "Phaeochromocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Phaeochromocytoma"
+                }
+            ]
         },
         {
             "code": "Pilocytic Astrocytoma",
-            "display": "Pilocytic Astrocytoma"
+            "display": "Pilocytic Astrocytoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Pilocytic Astrocytoma"
+                }
+            ]
         },
         {
             "code": "Pituitary Carcinoma",
-            "display": "Pituitary Carcinoma"
+            "display": "Pituitary Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Pituitary Carcinoma"
+                }
+            ]
         },
         {
             "code": "Pleomorphic Sarcoma",
-            "display": "Pleomorphic Sarcoma"
-        },
-        {
-            "code": "Pleomorphic Xanthoastrocytoma",
-            "display": "Pleomorphic Xanthoastrocytoma"
+            "display": "Pleomorphic Sarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Pleomorphic Sarcoma"
+                }
+            ]
         },
         {
             "code": "Poorly Cohesive Including Signet Ring Cell Type",
-            "display": "Poorly Cohesive Including Signet Ring Cell Type"
+            "display": "Poorly Cohesive Including Signet Ring Cell Type",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Poorly Cohesive Including Signet Ring Cell Type"
+                }
+            ]
         },
         {
             "code": "Primary Conventional Osteosarcoma",
-            "display": "Primary Conventional Osteosarcoma"
+            "display": "Primary Conventional Osteosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Primary Conventional Osteosarcoma"
+                }
+            ]
         },
         {
             "code": "Rare Sarcoma Entities",
-            "display": "Rare Sarcoma Entities"
+            "display": "Rare Sarcoma Entities",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Rare Sarcoma Entities"
+                }
+            ]
         },
         {
             "code": "Rhabdomyosarcoma",
-            "display": "Rhabdomyosarcoma"
+            "display": "Rhabdomyosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Rhabdomyosarcoma"
+                }
+            ]
         },
         {
             "code": "Sarcoma Nos",
-            "display": "Sarcoma Nos"
+            "display": "Sarcoma Nos",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Sarcoma Nos"
+                }
+            ]
         },
         {
-            "code": "Sarcomatoid Carcinoma",
-            "display": "Sarcomatoid Carcinoma"
+            "code": "Sclerosing Epithelioid Fibrosarcoma",
+            "display": "Sclerosing Epithelioid Fibrosarcoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Sclerosing Epithelioid Fibrosarcoma"
+                }
+            ]
         },
         {
             "code": "Serous Carcinoma",
-            "display": "Serous Carcinoma"
+            "display": "Serous Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Serous Carcinoma"
+                }
+            ]
         },
         {
             "code": "Sertoli-Leydig",
-            "display": "Sertoli-Leydig"
-        },
-        {
-            "code": "Small Cell Carcinoma",
-            "display": "Small Cell Carcinoma"
+            "display": "Sertoli-Leydig",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Sertoli-Leydig"
+                }
+            ]
         },
         {
             "code": "Small Cell",
-            "display": "Small Cell"
-        },
-        {
-            "code": "Spermatocytic Seminoma",
-            "display": "Spermatocytic Seminoma"
+            "display": "Small Cell",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Small Cell"
+                }
+            ]
         },
         {
             "code": "Squamous Cell Carcinoma",
-            "display": "Squamous Cell Carcinoma"
+            "display": "Squamous Cell Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Squamous Cell Carcinoma"
+                }
+            ]
         },
         {
             "code": "Squamous Cell",
-            "display": "Squamous Cell"
+            "display": "Squamous Cell",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Squamous Cell"
+                }
+            ]
         },
         {
             "code": "Stromal Tumour",
-            "display": "Stromal Tumour"
+            "display": "Stromal Tumour",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Stromal Tumour"
+                }
+            ]
         },
         {
             "code": "Subependymoma",
-            "display": "Subependymoma"
+            "display": "Subependymoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Subependymoma"
+                }
+            ]
         },
         {
             "code": "Superficial Spreading",
-            "display": "Superficial Spreading"
+            "display": "Superficial Spreading",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Superficial Spreading"
+                }
+            ]
         },
         {
             "code": "Synovial Sarcoma - Monophasic And Biphasic",
-            "display": "Synovial Sarcoma - Monophasic And Biphasic"
+            "display": "Synovial Sarcoma - Monophasic And Biphasic",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Synovial Sarcoma - Monophasic And Biphasic"
+                }
+            ]
         },
         {
             "code": "T-Cell Lymphoma",
-            "display": "T-Cell Lymphoma"
+            "display": "T-Cell Lymphoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: T-Cell Lymphoma"
+                }
+            ]
         },
         {
             "code": "Teratoma (Immature)",
-            "display": "Teratoma (Immature)"
+            "display": "Teratoma (Immature)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Teratoma (Immature)"
+                }
+            ]
         },
         {
             "code": "Teratoma (Mature)",
-            "display": "Teratoma (Mature)"
+            "display": "Teratoma (Mature)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Teratoma (Mature)"
+                }
+            ]
         },
         {
             "code": "Teratoma Differentiated",
-            "display": "Teratoma Differentiated"
+            "display": "Teratoma Differentiated",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Teratoma Differentiated"
+                }
+            ]
         },
         {
             "code": "Teratoma Undifferentiated",
-            "display": "Teratoma Undifferentiated"
+            "display": "Teratoma Undifferentiated",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Teratoma Undifferentiated"
+                }
+            ]
         },
         {
             "code": "Transitional Cell Carcinoma",
-            "display": "Transitional Cell Carcinoma"
+            "display": "Transitional Cell Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Transitional Cell Carcinoma"
+                }
+            ]
         },
         {
             "code": "Tubular / Cribform",
-            "display": "Tubular / Cribform"
+            "display": "Tubular / Cribform",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Tubular / Cribform"
+                }
+            ]
         },
         {
             "code": "Undifferentiated Carcinoma",
-            "display": "Undifferentiated Carcinoma"
-        },
-        {
-            "code": "Undifferentiated Hcc",
-            "display": "Undifferentiated Hcc"
+            "display": "Undifferentiated Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Undifferentiated Carcinoma"
+                }
+            ]
         },
         {
             "code": "Unknown",
-            "display": "Unknown"
+            "display": "Unknown",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Unknown"
+                }
+            ]
         },
         {
             "code": "Urothelial (In Situ)",
-            "display": "Urothelial (In Situ)"
+            "display": "Urothelial (In Situ)",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Urothelial (In Situ)"
+                }
+            ]
         },
         {
             "code": "Urothelial Carcinoma",
-            "display": "Urothelial Carcinoma"
+            "display": "Urothelial Carcinoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Urothelial Carcinoma"
+                }
+            ]
         },
         {
             "code": "Uveal Melanoma",
-            "display": "Uveal Melanoma"
+            "display": "Uveal Melanoma",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Uveal Melanoma"
+                }
+            ]
         },
         {
             "code": "Yolk Sac Tumour",
-            "display": "Yolk Sac Tumour"
+            "display": "Yolk Sac Tumour",
+            "designation": [
+                {
+                    "value": "Cancer Subtype: Yolk Sac Tumour"
+                }
+            ]
         }
     ]
 }
