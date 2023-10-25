@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "095ada47-e595-4384-9b9d-f31daa61c35c",
+		"name": "Ontoserver NoAuth Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FHIR API - POST - Add CodeSystem cancer-disease-types",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"resourceType\": \"CodeSystem\",\n    \"id\": \"cancer-disease-types\",\n    \"url\": \"http://genomicsengland.co.uk/recruited-cancer-disease-types\",\n    \"version\": \"2019-02-28\",\n    \"name\": \"GEL Recruited Cancer Disease Types\",\n    \"status\": \"draft\",\n    \"publisher\": \"Genomics England\",\n    \"valueSet\": \"http://genomicsengland.co.uk/recruited-cancer-disease-types\",\n    \"content\": \"complete\",\n    \"concept\": [\n        {\n            \"code\": \"ADULT_GLIOMA\",\n            \"display\": \"Adult Glioma\"\n        },\n        {\n            \"code\": \"BLADDER\",\n            \"display\": \"Bladder\"\n        },\n        {\n            \"code\": \"BREAST\",\n            \"display\": \"Breast\"\n        },\n        {\n            \"code\": \"CARCINOMA_OF_UNKNOWN_PRIMARY\",\n            \"display\": \"Carcinoma Of Unknown Primary\"\n        },\n        {\n            \"code\": \"CHILDHOOD\",\n            \"display\": \"Childhood\"\n        },\n        {\n            \"code\": \"COLORECTAL\",\n            \"display\": \"Colorectal\"\n        },\n        {\n            \"code\": \"ENDOCRINE\",\n            \"display\": \"Endocrine\"\n        },\n        {\n            \"code\": \"ENDOMETRIAL_CARCINOMA\",\n            \"display\": \"Endometrial Carcinoma\"\n        },\n        {\n            \"code\": \"HAEMONC\",\n            \"display\": \"Haemonc\"\n        },\n        {\n            \"code\": \"HEPATOPANCREATOBILIARY\",\n            \"display\": \"Hepatopancreatobiliary\"\n        },\n        {\n            \"code\": \"LUNG\",\n            \"display\": \"Lung\"\n        },\n        {\n            \"code\": \"MALIGNANT_MELANOMA\",\n            \"display\": \"Malignant Melanoma\"\n        },\n        {\n            \"code\": \"NASOPHARYNGEAL\",\n            \"display\": \"Nasopharyngeal\"\n        },\n        {\n            \"code\": \"ORAL_OROPHARYNGEAL\",\n            \"display\": \"Oral Oropharyngeal\"\n        },\n        {\n            \"code\": \"OTHER\",\n            \"display\": \"Other\"\n        },\n        {\n            \"code\": \"OVARIAN\",\n            \"display\": \"Ovarian\"\n        },\n        {\n            \"code\": \"PROSTATE\",\n            \"display\": \"Prostate\"\n        },\n        {\n            \"code\": \"RENAL\",\n            \"display\": \"Renal\"\n        },\n        {\n            \"code\": \"SARCOMA\",\n            \"display\": \"Sarcoma\"\n        },\n        {\n            \"code\": \"SINONASAL\",\n            \"display\": \"Sinonasal\"\n        },\n        {\n            \"code\": \"TESTICULAR_GERM_CELL_TUMOURS\",\n            \"display\": \"Testicular Germ Cell Tumours\"\n        },\n        {\n            \"code\": \"UNKNOWN\",\n            \"display\": \"Unknown\"\n        },\n        {\n            \"code\": \"UPPER_GASTROINTESTINAL\",\n            \"display\": \"Upper Gastrointestinal\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{ontoserver_fhir_url}}/CodeSystem",
+					"host": [
+						"{{ontoserver_fhir_url}}"
+					],
+					"path": [
+						"CodeSystem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FHIR API - PUT - Update CodeSystem cancer-disease-types",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"resourceType\": \"CodeSystem\",\n    \"id\": \"d03928d7-49bf-4292-b0cc-fed1af0a6213\",\n    \"url\": \"http://genomicsengland.co.uk/recruited-cancer-disease-types\",\n    \"version\": \"2019-02-28\",\n    \"name\": \"GEL Recruited Cancer Disease Types\",\n    \"status\": \"draft\",\n    \"publisher\": \"Genomics England\",\n    \"valueSet\": \"http://genomicsengland.co.uk/recruited-cancer-disease-types\",\n    \"content\": \"complete\",\n    \"concept\": [\n        {\n            \"code\": \"ADULT_GLIOMA\",\n            \"display\": \"Adult Glioma\"\n        },\n        {\n            \"code\": \"BLADDER\",\n            \"display\": \"Bladder\"\n        },\n        {\n            \"code\": \"BREAST\",\n            \"display\": \"Breast\"\n        },\n        {\n            \"code\": \"CARCINOMA_OF_UNKNOWN_PRIMARY\",\n            \"display\": \"Carcinoma Of Unknown Primary\"\n        },\n        {\n            \"code\": \"CHILDHOOD\",\n            \"display\": \"Childhood\"\n        },\n        {\n            \"code\": \"COLORECTAL\",\n            \"display\": \"Colorectal\"\n        },\n        {\n            \"code\": \"ENDOCRINE\",\n            \"display\": \"Endocrine\"\n        },\n        {\n            \"code\": \"ENDOMETRIAL_CARCINOMA\",\n            \"display\": \"Endometrial Carcinoma\"\n        },\n        {\n            \"code\": \"HAEMONC\",\n            \"display\": \"Haemonc\"\n        },\n        {\n            \"code\": \"HEPATOPANCREATOBILIARY\",\n            \"display\": \"Hepatopancreatobiliary\"\n        },\n        {\n            \"code\": \"LUNG\",\n            \"display\": \"Lung\"\n        },\n        {\n            \"code\": \"MALIGNANT_MELANOMA\",\n            \"display\": \"Malignant Melanoma\"\n        },\n        {\n            \"code\": \"NASOPHARYNGEAL\",\n            \"display\": \"Nasopharyngeal\"\n        },\n        {\n            \"code\": \"ORAL_OROPHARYNGEAL\",\n            \"display\": \"Oral Oropharyngeal\"\n        },\n        {\n            \"code\": \"OTHER\",\n            \"display\": \"Other\"\n        },\n        {\n            \"code\": \"OVARIAN\",\n            \"display\": \"Ovarian\"\n        },\n        {\n            \"code\": \"PROSTATE\",\n            \"display\": \"Prostate\"\n        },\n        {\n            \"code\": \"RENAL\",\n            \"display\": \"Renal\"\n        },\n        {\n            \"code\": \"SARCOMA\",\n            \"display\": \"Sarcoma\"\n        },\n        {\n            \"code\": \"SINONASAL\",\n            \"display\": \"Sinonasal\"\n        },\n        {\n            \"code\": \"TESTICULAR_GERM_CELL_TUMOURS\",\n            \"display\": \"Testicular Germ Cell Tumours\"\n        },\n        {\n            \"code\": \"UNKNOWN\",\n            \"display\": \"Unknown\"\n        },\n        {\n            \"code\": \"UPPER_GASTROINTESTINAL\",\n            \"display\": \"Upper Gastrointestinal\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{ontoserver_fhir_url}}/CodeSystem/d03928d7-49bf-4292-b0cc-fed1af0a6213",
+					"host": [
+						"{{ontoserver_fhir_url}}"
+					],
+					"path": [
+						"CodeSystem",
+						"d03928d7-49bf-4292-b0cc-fed1af0a6213"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FHIR API - GET CodeSystem summary OPCS4 4.8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ontoserver_fhir_url}}/CodeSystem/opcs?_summary=true",
+					"host": [
+						"{{ontoserver_fhir_url}}"
+					],
+					"path": [
+						"CodeSystem",
+						"opcs"
+					],
+					"query": [
+						{
+							"key": "_summary",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FHIR API - Delete CodeSystem by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{ontoserver_fhir_url}}/CodeSystem/d03928d7-49bf-4292-b0cc-fed1af0a6213",
+					"host": [
+						"{{ontoserver_fhir_url}}"
+					],
+					"path": [
+						"CodeSystem",
+						"d03928d7-49bf-4292-b0cc-fed1af0a6213"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin API - GET Audit reports",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ontoserver_api_url}}/upstream.xml",
+					"host": [
+						"{{ontoserver_api_url}}"
+					],
+					"path": [
+						"upstream.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin API - POST Vacuum",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{ontoserver_api_url}}/vacuum",
+					"host": [
+						"{{ontoserver_api_url}}"
+					],
+					"path": [
+						"vacuum"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Synd API - Get Syndication Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ontoserver_synd_url}}/syndication.xml",
+					"host": [
+						"{{ontoserver_synd_url}}"
+					],
+					"path": [
+						"syndication.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Synd API - POST Redo Preload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{ontoserver_synd_url}}/redoPreload",
+					"host": [
+						"{{ontoserver_synd_url}}"
+					],
+					"path": [
+						"redoPreload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lookup Code",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ontoserver_fhir_url}}/CodeSystem/$lookup?url=x,code=x",
+					"host": [
+						"{{ontoserver_fhir_url}}"
+					],
+					"path": [
+						"CodeSystem",
+						"$lookup"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "x,code=x"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FHIR API - GET ConceptMap summary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ontoserver_fhir_url}}/CodeSystem/opcs?_summary=true",
+					"host": [
+						"{{ontoserver_fhir_url}}"
+					],
+					"path": [
+						"CodeSystem",
+						"opcs"
+					],
+					"query": [
+						{
+							"key": "_summary",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
