@@ -2,7 +2,7 @@
     "resourceType": "CodeSystem",
     "id": "sact-drug-group",
     "url": "http://genomicsengland.co.uk/sact-drug-group",
-    "version": "2023-10-27",
+    "version": "2023-10-27 (100k-v17)",
     "name": "Systemic Anti-Cancer Therapy (drug group derived)",
     "status": "draft",
     "publisher": "Genomics England",
@@ -23,7 +23,7 @@
         },
         {
             "code": "ADCT-301",
-            "display": "Adct-301"
+            "display": "ADCT-301"
         },
         {
             "code": "AFATINIB",
@@ -87,7 +87,7 @@
         },
         {
             "code": "ATG",
-            "display": "Atg"
+            "display": "ATG"
         },
         {
             "code": "AVELUMAB",
@@ -107,7 +107,7 @@
         },
         {
             "code": "AZD1775",
-            "display": "Azd1775"
+            "display": "AZD1775"
         },
         {
             "code": "BCG",
@@ -203,7 +203,7 @@
         },
         {
             "code": "CAR-T CELLS",
-            "display": "Car-T Cells"
+            "display": "CAR-T Cells"
         },
         {
             "code": "CDX-011",
@@ -699,7 +699,7 @@
         },
         {
             "code": "PDR001",
-            "display": "Pdr001"
+            "display": "PDR001"
         },
         {
             "code": "PEGASPARAGINASE",
