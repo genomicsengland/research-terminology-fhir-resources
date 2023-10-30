@@ -1,0 +1,1021 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "sact-drug-group",
+    "url": "http://genomicsengland.co.uk/sact-drug-group",
+    "version": "2023-10-27 (100k-v17)",
+    "name": "Systemic Anti-Cancer Therapy (drug group derived)",
+    "status": "draft",
+    "publisher": "Genomics England",
+    "valueSet": "http://genomicsengland.co.uk/sact-drug-group",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "ABEMACICLIB",
+            "display": "Abemaciclib"
+        },
+        {
+            "code": "ABIRATERONE",
+            "display": "Abiraterone"
+        },
+        {
+            "code": "ACALABRUTINIB",
+            "display": "Acalabrutinib"
+        },
+        {
+            "code": "ADCT-301",
+            "display": "ADCT-301"
+        },
+        {
+            "code": "AFATINIB",
+            "display": "Afatinib"
+        },
+        {
+            "code": "AFLIBERCEPT",
+            "display": "Aflibercept"
+        },
+        {
+            "code": "ALDESLEUKIN",
+            "display": "Aldesleukin"
+        },
+        {
+            "code": "ALECTINIB",
+            "display": "Alectinib"
+        },
+        {
+            "code": "ALEMTUZUMAB",
+            "display": "Alemtuzumab"
+        },
+        {
+            "code": "AMSACRINE",
+            "display": "Amsacrine"
+        },
+        {
+            "code": "ANAGRELIDE",
+            "display": "Anagrelide"
+        },
+        {
+            "code": "ANASTROZOLE",
+            "display": "Anastrozole"
+        },
+        {
+            "code": "ANETUMAB RAVTANSINE",
+            "display": "Anetumab Ravtansine"
+        },
+        {
+            "code": "ANTI-THYMOCYTE GLOBULIN",
+            "display": "Anti-Thymocyte Globulin"
+        },
+        {
+            "code": "APALUTAMIDE",
+            "display": "Apalutamide"
+        },
+        {
+            "code": "ARSENIC TRIOXIDE",
+            "display": "Arsenic Trioxide"
+        },
+        {
+            "code": "ASCIMINIB",
+            "display": "Asciminib"
+        },
+        {
+            "code": "ASPARAGINASE",
+            "display": "Asparaginase"
+        },
+        {
+            "code": "ATEZOLIZUMAB",
+            "display": "Atezolizumab"
+        },
+        {
+            "code": "ATG",
+            "display": "ATG"
+        },
+        {
+            "code": "AVELUMAB",
+            "display": "Avelumab"
+        },
+        {
+            "code": "AXICABTAGENE CILOLEUCEL (YESCARTA)",
+            "display": "Axicabtagene Ciloleucel (Yescarta)"
+        },
+        {
+            "code": "AXITINIB",
+            "display": "Axitinib"
+        },
+        {
+            "code": "AZACITIDINE",
+            "display": "Azacitidine"
+        },
+        {
+            "code": "AZD1775",
+            "display": "AZD1775"
+        },
+        {
+            "code": "BCG",
+            "display": "BCG"
+        },
+        {
+            "code": "BELANTAMAB MAFODOTIN",
+            "display": "Belantamab Mafodotin"
+        },
+        {
+            "code": "BENDAMUSTINE",
+            "display": "Bendamustine"
+        },
+        {
+            "code": "BERZOSERTIB",
+            "display": "Berzosertib"
+        },
+        {
+            "code": "BEVACIZUMAB",
+            "display": "Bevacizumab"
+        },
+        {
+            "code": "BEXAROTENE",
+            "display": "Bexarotene"
+        },
+        {
+            "code": "BICALUTAMIDE",
+            "display": "Bicalutamide"
+        },
+        {
+            "code": "BINIMETINIB",
+            "display": "Binimetinib"
+        },
+        {
+            "code": "BLEOMYCIN",
+            "display": "Bleomycin"
+        },
+        {
+            "code": "BLINATUMOMAB",
+            "display": "Blinatumomab"
+        },
+        {
+            "code": "BMS-986016",
+            "display": "BMS-986016"
+        },
+        {
+            "code": "BORTEZOMIB",
+            "display": "Bortezomib"
+        },
+        {
+            "code": "BOSUTINIB",
+            "display": "Bosutinib"
+        },
+        {
+            "code": "BRENTUXIMAB VEDOTIN",
+            "display": "Brentuximab Vedotin"
+        },
+        {
+            "code": "BRIGATINIB",
+            "display": "Brigatinib"
+        },
+        {
+            "code": "BUSULFAN",
+            "display": "Busulfan"
+        },
+        {
+            "code": "CABAZITAXEL",
+            "display": "Cabazitaxel"
+        },
+        {
+            "code": "CABOZANTINIB",
+            "display": "Cabozantinib"
+        },
+        {
+            "code": "CAPECITABINE",
+            "display": "Capecitabine"
+        },
+        {
+            "code": "CARBOPLATIN",
+            "display": "Carboplatin"
+        },
+        {
+            "code": "CARFILZOMIB",
+            "display": "Carfilzomib"
+        },
+        {
+            "code": "CARMUSTINE",
+            "display": "Carmustine"
+        },
+        {
+            "code": "CAROTUXIMAB",
+            "display": "Carotuximab"
+        },
+        {
+            "code": "CAR-T CELLS",
+            "display": "CAR-T Cells"
+        },
+        {
+            "code": "CDX-011",
+            "display": "CDX-011"
+        },
+        {
+            "code": "CEDIRANIB",
+            "display": "Cediranib"
+        },
+        {
+            "code": "CEMIPLIMAB",
+            "display": "Cemiplimab"
+        },
+        {
+            "code": "CERALASERTIB",
+            "display": "Ceralasertib"
+        },
+        {
+            "code": "CERITINIB",
+            "display": "Ceritinib"
+        },
+        {
+            "code": "CETRORELIX ACETATE",
+            "display": "Cetrorelix Acetate"
+        },
+        {
+            "code": "CETUXIMAB",
+            "display": "Cetuximab"
+        },
+        {
+            "code": "CHLORAMBUCIL",
+            "display": "Chlorambucil"
+        },
+        {
+            "code": "CISPLATIN",
+            "display": "Cisplatin"
+        },
+        {
+            "code": "CLADRIBINE",
+            "display": "Cladribine"
+        },
+        {
+            "code": "CLOFARABINE",
+            "display": "Clofarabine"
+        },
+        {
+            "code": "COBIMETINIB",
+            "display": "Cobimetinib"
+        },
+        {
+            "code": "CPX - 351",
+            "display": "CPX - 351"
+        },
+        {
+            "code": "CRIZOTINIB",
+            "display": "Crizotinib"
+        },
+        {
+            "code": "CYATARABINE",
+            "display": "Cyatarabine"
+        },
+        {
+            "code": "CYCLOPHOSPHAMIDE",
+            "display": "Cyclophosphamide"
+        },
+        {
+            "code": "CYTARABINE",
+            "display": "Cytarabine"
+        },
+        {
+            "code": "CYTARABINE + DAUNORUBICIN (VYXEOS)",
+            "display": "Cytarabine + Daunorubicin (Vyxeos)"
+        },
+        {
+            "code": "DABRAFENIB",
+            "display": "Dabrafenib"
+        },
+        {
+            "code": "DACARBAZINE",
+            "display": "Dacarbazine"
+        },
+        {
+            "code": "DACOMITINIB",
+            "display": "Dacomitinib"
+        },
+        {
+            "code": "DACTINOMYCIN",
+            "display": "Dactinomycin"
+        },
+        {
+            "code": "DARATUMUMAB",
+            "display": "Daratumumab"
+        },
+        {
+            "code": "DAROLUTAMIDE",
+            "display": "Darolutamide"
+        },
+        {
+            "code": "DASATINIB",
+            "display": "Dasatinib"
+        },
+        {
+            "code": "DAUNORUBICIN",
+            "display": "Daunorubicin"
+        },
+        {
+            "code": "DEFACTINIB",
+            "display": "Defactinib"
+        },
+        {
+            "code": "DENOSUMAB",
+            "display": "Denosumab"
+        },
+        {
+            "code": "DEXAMETHASONE",
+            "display": "Dexamethasone"
+        },
+        {
+            "code": "DINUTUXIMAB BETA",
+            "display": "Dinutuximab Beta"
+        },
+        {
+            "code": "DOCETAXEL",
+            "display": "Docetaxel"
+        },
+        {
+            "code": "DOSTARLIMAB",
+            "display": "Dostarlimab"
+        },
+        {
+            "code": "DOXORUBICIN",
+            "display": "Doxorubicin"
+        },
+        {
+            "code": "DURVALUMAB",
+            "display": "Durvalumab"
+        },
+        {
+            "code": "ENAPOTAMAB VEDOTIN",
+            "display": "Enapotamab Vedotin"
+        },
+        {
+            "code": "ENCORAFENIB",
+            "display": "Encorafenib"
+        },
+        {
+            "code": "ENFORTUMAB VEDOTIN",
+            "display": "Enfortumab Vedotin"
+        },
+        {
+            "code": "ENZALUTAMIDE",
+            "display": "Enzalutamide"
+        },
+        {
+            "code": "EPIRUBICIN",
+            "display": "Epirubicin"
+        },
+        {
+            "code": "ERIBULIN",
+            "display": "Eribulin"
+        },
+        {
+            "code": "ERLOTINIB",
+            "display": "Erlotinib"
+        },
+        {
+            "code": "ETOPOSIDE",
+            "display": "Etoposide"
+        },
+        {
+            "code": "EVEROLIMUS",
+            "display": "Everolimus"
+        },
+        {
+            "code": "EXEMESTANE",
+            "display": "Exemestane"
+        },
+        {
+            "code": "FLUCONAZOLE",
+            "display": "Fluconazole"
+        },
+        {
+            "code": "FLUDARABINE",
+            "display": "Fludarabine"
+        },
+        {
+            "code": "FLUOROURACIL",
+            "display": "Fluorouracil"
+        },
+        {
+            "code": "FOLINIC ACID",
+            "display": "Folinic Acid"
+        },
+        {
+            "code": "FULVESTRANT",
+            "display": "Fulvestrant"
+        },
+        {
+            "code": "GEFITINIB",
+            "display": "Gefitinib"
+        },
+        {
+            "code": "GEMCITABINE",
+            "display": "Gemcitabine"
+        },
+        {
+            "code": "GEMTUZUMAB OZOGAMICIN",
+            "display": "Gemtuzumab Ozogamicin"
+        },
+        {
+            "code": "GEMTUZUMAB OZOGAMYCIN",
+            "display": "Gemtuzumab Ozogamycin"
+        },
+        {
+            "code": "GILTERITINIB",
+            "display": "Gilteritinib"
+        },
+        {
+            "code": "GOSERELIN",
+            "display": "Goserelin"
+        },
+        {
+            "code": "HYDROCORTISONE",
+            "display": "Hydrocortisone"
+        },
+        {
+            "code": "HYDROXYCARBAMIDE",
+            "display": "Hydroxycarbamide"
+        },
+        {
+            "code": "IBANDRONATE",
+            "display": "Ibandronate"
+        },
+        {
+            "code": "IBRUTINIB",
+            "display": "Ibrutinib"
+        },
+        {
+            "code": "IDARUBICIN",
+            "display": "Idarubicin"
+        },
+        {
+            "code": "IDELALISIB",
+            "display": "Idelalisib"
+        },
+        {
+            "code": "IFOSFAMIDE",
+            "display": "Ifosfamide"
+        },
+        {
+            "code": "IMATINIB",
+            "display": "Imatinib"
+        },
+        {
+            "code": "INOTUZUMAB OZOGAMICIN",
+            "display": "Inotuzumab Ozogamicin"
+        },
+        {
+            "code": "INTERFERON ALFA",
+            "display": "Interferon Alfa"
+        },
+        {
+            "code": "IPATASERTIB",
+            "display": "Ipatasertib"
+        },
+        {
+            "code": "IPILIMUMAB",
+            "display": "Ipilimumab"
+        },
+        {
+            "code": "IRINOTECAN",
+            "display": "Irinotecan"
+        },
+        {
+            "code": "ISATUXIMAB",
+            "display": "Isatuximab"
+        },
+        {
+            "code": "ISOTRETINOIN",
+            "display": "Isotretinoin"
+        },
+        {
+            "code": "IXAZOMIB",
+            "display": "Ixazomib"
+        },
+        {
+            "code": "LANREOTIDE",
+            "display": "Lanreotide"
+        },
+        {
+            "code": "LAPATINIB",
+            "display": "Lapatinib"
+        },
+        {
+            "code": "LENALIDOMIDE",
+            "display": "Lenalidomide"
+        },
+        {
+            "code": "LENVATINIB",
+            "display": "Lenvatinib"
+        },
+        {
+            "code": "LETROZOLE",
+            "display": "Letrozole"
+        },
+        {
+            "code": "LEUPRORELIN ACETATE",
+            "display": "Leuprorelin Acetate"
+        },
+        {
+            "code": "LIPOSOMAL CYTARABINE",
+            "display": "Liposomal Cytarabine"
+        },
+        {
+            "code": "LIPOSOMAL DAUNORUBICIN",
+            "display": "Liposomal Daunorubicin"
+        },
+        {
+            "code": "LIPOSOMAL DOXORUBICIN",
+            "display": "Liposomal Doxorubicin"
+        },
+        {
+            "code": "LIPOSOMAL DOXORUBICIN (CAELYX)",
+            "display": "Liposomal Doxorubicin (Caelyx)"
+        },
+        {
+            "code": "LIPOSOMAL IRINOTECAN",
+            "display": "Liposomal Irinotecan"
+        },
+        {
+            "code": "LOMUSTINE",
+            "display": "Lomustine"
+        },
+        {
+            "code": "LONCASTUXIMAB TESIRINE",
+            "display": "Loncastuximab Tesirine"
+        },
+        {
+            "code": "LORLATINIB",
+            "display": "Lorlatinib"
+        },
+        {
+            "code": "LTX-315",
+            "display": "LTX-315"
+        },
+        {
+            "code": "LTX-316",
+            "display": "LTX-316"
+        },
+        {
+            "code": "LTX-317",
+            "display": "LTX-317"
+        },
+        {
+            "code": "LUTETIUM-177",
+            "display": "Lutetium-177"
+        },
+        {
+            "code": "MELPHALAN",
+            "display": "Melphalan"
+        },
+        {
+            "code": "MERCAPTOPURINE",
+            "display": "Mercaptopurine"
+        },
+        {
+            "code": "MESNA",
+            "display": "Mesna"
+        },
+        {
+            "code": "METHOTREXATE",
+            "display": "Methotrexate"
+        },
+        {
+            "code": "METHYLPREDNISOLONE",
+            "display": "Methylprednisolone"
+        },
+        {
+            "code": "MIDOSTAURIN",
+            "display": "Midostaurin"
+        },
+        {
+            "code": "MIFAMURTIDE",
+            "display": "Mifamurtide"
+        },
+        {
+            "code": "MITOMYCIN",
+            "display": "Mitomycin"
+        },
+        {
+            "code": "MITOTANE",
+            "display": "Mitotane"
+        },
+        {
+            "code": "MITOXANTRONE",
+            "display": "Mitoxantrone"
+        },
+        {
+            "code": "MULTIPLE",
+            "display": "Multiple"
+        },
+        {
+            "code": "NAB-PACLITAXEL",
+            "display": "Nab-Paclitaxel"
+        },
+        {
+            "code": "NELARABINE",
+            "display": "Nelarabine"
+        },
+        {
+            "code": "NERATINIB",
+            "display": "Neratinib"
+        },
+        {
+            "code": "NILOTINIB",
+            "display": "Nilotinib"
+        },
+        {
+            "code": "NINTEDANIB",
+            "display": "Nintedanib"
+        },
+        {
+            "code": "NIRAPARIB",
+            "display": "Niraparib"
+        },
+        {
+            "code": "NIVOLUMAB",
+            "display": "Nivolumab"
+        },
+        {
+            "code": "NOT CHEMO",
+            "display": "Not Chemo"
+        },
+        {
+            "code": "NOT MATCHED",
+            "display": "Not Matched"
+        },
+        {
+            "code": "OBINUTUZUMAB",
+            "display": "Obinutuzumab"
+        },
+        {
+            "code": "OCTREOTIDE",
+            "display": "Octreotide"
+        },
+        {
+            "code": "ODRONEXTAMAB",
+            "display": "Odronextamab"
+        },
+        {
+            "code": "OLAPARIB",
+            "display": "Olaparib"
+        },
+        {
+            "code": "OLARATUMAB",
+            "display": "Olaratumab"
+        },
+        {
+            "code": "OSIMERTINIB",
+            "display": "Osimertinib"
+        },
+        {
+            "code": "OXALIPLATIN",
+            "display": "Oxaliplatin"
+        },
+        {
+            "code": "PACLITAXEL",
+            "display": "Paclitaxel"
+        },
+        {
+            "code": "PACRITINIB",
+            "display": "Pacritinib"
+        },
+        {
+            "code": "PALBOCICLIB",
+            "display": "Palbociclib"
+        },
+        {
+            "code": "PAMIDRONATE",
+            "display": "Pamidronate"
+        },
+        {
+            "code": "PANITUMUMAB",
+            "display": "Panitumumab"
+        },
+        {
+            "code": "PANOBINOSTAT",
+            "display": "Panobinostat"
+        },
+        {
+            "code": "PAZOPANIB",
+            "display": "Pazopanib"
+        },
+        {
+            "code": "PDR001",
+            "display": "PDR001"
+        },
+        {
+            "code": "PEGASPARAGINASE",
+            "display": "Pegasparaginase"
+        },
+        {
+            "code": "PEG-ASPARAGINASE",
+            "display": "Peg-Asparaginase"
+        },
+        {
+            "code": "PEG-INTERFERON",
+            "display": "Peg-Interferon"
+        },
+        {
+            "code": "PEG INTERFERON ALFA",
+            "display": "Peg Interferon Alfa"
+        },
+        {
+            "code": "PEMBROLIZUMAB",
+            "display": "Pembrolizumab"
+        },
+        {
+            "code": "PEMETREXED",
+            "display": "Pemetrexed"
+        },
+        {
+            "code": "PENTOSTATIN",
+            "display": "Pentostatin"
+        },
+        {
+            "code": "PERTUZUMAB",
+            "display": "Pertuzumab"
+        },
+        {
+            "code": "PERTUZUMAB + TRASTUZUMAB",
+            "display": "Pertuzumab + Trastuzumab"
+        },
+        {
+            "code": "PERTUZUMAB + TRASTUZUMAB (PHESGO)",
+            "display": "Pertuzumab + Trastuzumab (Phesgo)"
+        },
+        {
+            "code": "POLATUZUMAB VEDOTIN",
+            "display": "Polatuzumab Vedotin"
+        },
+        {
+            "code": "POMALIDOMIDE",
+            "display": "Pomalidomide"
+        },
+        {
+            "code": "PONATINIB",
+            "display": "Ponatinib"
+        },
+        {
+            "code": "PRALSETINIB",
+            "display": "Pralsetinib"
+        },
+        {
+            "code": "PREDNISOLONE",
+            "display": "Prednisolone"
+        },
+        {
+            "code": "PROCARBAZINE",
+            "display": "Procarbazine"
+        },
+        {
+            "code": "QUIZARTINIB",
+            "display": "Quizartinib"
+        },
+        {
+            "code": "RADIUM 223",
+            "display": "Radium 223"
+        },
+        {
+            "code": "RALTITREXED",
+            "display": "Raltitrexed"
+        },
+        {
+            "code": "REGORAFENIB",
+            "display": "Regorafenib"
+        },
+        {
+            "code": "REOLYSIN",
+            "display": "Reolysin"
+        },
+        {
+            "code": "RIBOCICLIB",
+            "display": "Ribociclib"
+        },
+        {
+            "code": "RIPRETINIB",
+            "display": "Ripretinib"
+        },
+        {
+            "code": "RITUXIMAB",
+            "display": "Rituximab"
+        },
+        {
+            "code": "RITUXIMAB BIOSIMILAR",
+            "display": "Rituximab Biosimilar"
+        },
+        {
+            "code": "RITUXIMAB BIOSIMILAR (RIXATHON)",
+            "display": "Rituximab Biosimilar (Rixathon)"
+        },
+        {
+            "code": "RITUXIMAB BIOSIMILAR (TRUXIMA)",
+            "display": "Rituximab Biosimilar (Truxima)"
+        },
+        {
+            "code": "RITUXIMAB (MABTHERA)",
+            "display": "Rituximab (Mabthera)"
+        },
+        {
+            "code": "RITXUIMAB BIOSIMILAR (RIXATHON)",
+            "display": "Ritxuimab Biosimilar (Rixathon)"
+        },
+        {
+            "code": "RUCAPARIB",
+            "display": "Rucaparib"
+        },
+        {
+            "code": "RUXOLITINIB",
+            "display": "Ruxolitinib"
+        },
+        {
+            "code": "SACITUZUMAB GOVITECAN",
+            "display": "Sacituzumab Govitecan"
+        },
+        {
+            "code": "SAVOLITINIB",
+            "display": "Savolitinib"
+        },
+        {
+            "code": "SELPERCATINIB",
+            "display": "Selpercatinib"
+        },
+        {
+            "code": "SELUMETINIB",
+            "display": "Selumetinib"
+        },
+        {
+            "code": "SIROLIMUS",
+            "display": "Sirolimus"
+        },
+        {
+            "code": "SORAFENIB",
+            "display": "Sorafenib"
+        },
+        {
+            "code": "SOTORASIB",
+            "display": "Sotorasib"
+        },
+        {
+            "code": "STEROID",
+            "display": "Steroid"
+        },
+        {
+            "code": "STREPTOZOCIN",
+            "display": "Streptozocin"
+        },
+        {
+            "code": "SUNITINIB",
+            "display": "Sunitinib"
+        },
+        {
+            "code": "TALAZOPARIB",
+            "display": "Talazoparib"
+        },
+        {
+            "code": "TALIMOGENE LAHERPAREPVEC",
+            "display": "Talimogene Laherparepvec"
+        },
+        {
+            "code": "TAMOXIFEN",
+            "display": "Tamoxifen"
+        },
+        {
+            "code": "TAZEMETOSTAT",
+            "display": "Tazemetostat"
+        },
+        {
+            "code": "TEMOZOLOMIDE",
+            "display": "Temozolomide"
+        },
+        {
+            "code": "THALIDOMIDE",
+            "display": "Thalidomide"
+        },
+        {
+            "code": "THIOTEPA",
+            "display": "Thiotepa"
+        },
+        {
+            "code": "TISAGENLECLEUCEL (KYMRIAH)",
+            "display": "Tisagenlecleucel (Kymriah)"
+        },
+        {
+            "code": "TIVOZANIB",
+            "display": "Tivozanib"
+        },
+        {
+            "code": "TOPOTECAN",
+            "display": "Topotecan"
+        },
+        {
+            "code": "TRABECTEDIN",
+            "display": "Trabectedin"
+        },
+        {
+            "code": "TRAMETINIB",
+            "display": "Trametinib"
+        },
+        {
+            "code": "TRASTUZUMAB",
+            "display": "Trastuzumab"
+        },
+        {
+            "code": "TRASTUZUMAB BIOSIMILAR",
+            "display": "Trastuzumab Biosimilar"
+        },
+        {
+            "code": "TRASTUZUMAB BIOSIMILAR (HERZUMA)",
+            "display": "Trastuzumab Biosimilar (Herzuma)"
+        },
+        {
+            "code": "TRASTUZUMAB BIOSIMILAR (KANJINTI)",
+            "display": "Trastuzumab Biosimilar (Kanjinti)"
+        },
+        {
+            "code": "TRASTUZUMAB BIOSIMILAR (ONTRUZANT)",
+            "display": "Trastuzumab Biosimilar (Ontruzant)"
+        },
+        {
+            "code": "TRASTUZUMAB DERUXTECAN",
+            "display": "Trastuzumab Deruxtecan"
+        },
+        {
+            "code": "TRASTUZUMAB EMTANSINE",
+            "display": "Trastuzumab Emtansine"
+        },
+        {
+            "code": "TRASTUZUMAB (HERCEPTIN)",
+            "display": "Trastuzumab (Herceptin)"
+        },
+        {
+            "code": "TREMELIMUMAB",
+            "display": "Tremelimumab"
+        },
+        {
+            "code": "TREOSULFAN",
+            "display": "Treosulfan"
+        },
+        {
+            "code": "TRETINOIN",
+            "display": "Tretinoin"
+        },
+        {
+            "code": "TRIAL",
+            "display": "Trial"
+        },
+        {
+            "code": "TRIFLURIDINE TIPIRACIL",
+            "display": "Trifluridine Tipiracil"
+        },
+        {
+            "code": "TRIPTORELIN",
+            "display": "Triptorelin"
+        },
+        {
+            "code": "UBLITUXIMAB",
+            "display": "Ublituximab"
+        },
+        {
+            "code": "UMBRALISIB",
+            "display": "Umbralisib"
+        },
+        {
+            "code": "VANDETANIB",
+            "display": "Vandetanib"
+        },
+        {
+            "code": "VARLILUMAB",
+            "display": "Varlilumab"
+        },
+        {
+            "code": "VEMURAFENIB",
+            "display": "Vemurafenib"
+        },
+        {
+            "code": "VENETOCLAX",
+            "display": "Venetoclax"
+        },
+        {
+            "code": "VINBLASTINE",
+            "display": "Vinblastine"
+        },
+        {
+            "code": "VINCRISTINE",
+            "display": "Vincristine"
+        },
+        {
+            "code": "VINDESINE",
+            "display": "Vindesine"
+        },
+        {
+            "code": "VINORELBINE",
+            "display": "Vinorelbine"
+        },
+        {
+            "code": "VISMODEGIB",
+            "display": "Vismodegib"
+        },
+        {
+            "code": "ZOLEDRONIC ACID",
+            "display": "Zoledronic Acid"
+        }
+    ]
+}
